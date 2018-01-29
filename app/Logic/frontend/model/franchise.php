@@ -17,4 +17,16 @@ class FranchiseModel extends Model
 	var $notelp;
 	var $alamat;
 	var $pesan;
+
+
+public function tambahfranchise(){
+	$franchise= new FranchiseModel();
+	$franchise->id=$_POST['id'];
+	$franchise->nama=$_POST['nama'];
+	$franchise->email=$_POST['email'];
+	$franchise->notelp=$_POST['notelp'];
+	$franchise->alamat=$_POST['alamat'];
+	$franchise->pesan=$_POST['pesan'];
+	$franchise->save();
+}
 }

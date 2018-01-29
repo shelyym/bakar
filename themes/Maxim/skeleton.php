@@ -6,14 +6,11 @@
 <head>     <meta charset="utf-8">     <title>lalal</title>     
 <meta name="viewport" content="width=device-width, initial-scale=1.0">     
 <meta name="description" content="">     <meta name="author" content="">     
-<link href="<?=_SPPATH._THEMEPATH;?>/css/bootstrap-responsive.css" rel="stylesheet">
-<link href="<?=_SPPATH._THEMEPATH;?>//css/style.css" rel="stylesheet">
-<link href="<?=_SPPATH._THEMEPATH;?>color/default.css" rel="stylesheet">
-<link rel="<?=_SPPATH._THEMEPATH;?>shortcut icon" href="img/favicon.ico">
-<!-- =======================================================     Theme Name:
-Maxim     Theme URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-
-theme/     Author: BootstrapMade.com     Author URL: https://bootstrapmade.com
-======================================================= --> </head>
+<link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-responsive.css" rel="stylesheet">
+<link href="<?=_SPPATH._THEMEPATH;?>///css/style.css" rel="stylesheet">
+<link href="<?=_SPPATH._THEMEPATH;?>//color/default.css" rel="stylesheet">
+<link rel="<?=_SPPATH;?>/shortcut icon" href="<?=_SPPATH._THEMEPATH;?>/img/bakaro.png">
+</head>
 
 <body>
 	<!-- navbar -->
@@ -24,7 +21,7 @@ theme/     Author: BootstrapMade.com     Author URL: https://bootstrapmade.com
 					<!-- Responsive navbar -->
 					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</a>
-					
+						<!-- <a class="brand"><a href="index.html"><img src="<?=_SPPATH._THEMEPATH;?>/img/unnamed.png" height="200" width="200"></a></a> -->
 					<!-- navigation -->
 					<nav class="pull-right nav-collapse collapse">
 						<ul id="menu-main" class="nav">
@@ -32,7 +29,7 @@ theme/     Author: BootstrapMade.com     Author URL: https://bootstrapmade.com
 							<li><a title="services" href="#services">Profile</a></li>
 							<li><a title="works" href="#frenchise">Franchise</a></li>
 							<li><a title="blog" href="#outlet">Outlet</a></li>
-							<li><a title="event" href="#event">Event</a></li>
+							<!-- <li><a title="event" href="#event">Event</a></li> -->
 							<li><a title="contact"  href="#contact">Contact</a></li>
 						</ul>
 					</nav>
@@ -45,7 +42,7 @@ theme/     Author: BootstrapMade.com     Author URL: https://bootstrapmade.com
 
 		<header class="clearfix">
 			<div class="logo">
-				<img src="<?=_SPPATH._THEMEPATH;?>/img/bakaro1.png" height="100" width="500" alt="" />
+				<img src="<?=_SPPATH._THEMEPATH;?>/img/unnamed.png" height="100" width="500" alt="" />
 			
 			<div class="container">
 
@@ -54,7 +51,7 @@ theme/     Author: BootstrapMade.com     Author URL: https://bootstrapmade.com
 						<div id="main-flexslider" class="flexslider">
 							<ul class="slides">
 								<li>
-									<p class="<?=_SPPATH;?>home-slide-content">
+									<p class="home-slide-content">
 										<strong>creative</strong> and passion
 									</p>
 								</li>
@@ -282,7 +279,7 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
 	</section>
 	<!-- end section: services -->
 	<!-- section: works -->
-	<section id="frenchise" class="section">
+	<section id="frenchise" class="section spacer green">
 		<div class="container">
 			<h4>Franchise</h4>
 			<p>
@@ -330,39 +327,42 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
                 </div>
 							</div>
 							</div>
-							<br>
-							<br>
+			
 
 							<h4>FORM CALON FRANCHISEE</h>
 								<br>
-								<br>
+							<br>
 
-					<div class="cform" id="contact-form">
-						<div id="sendmessage">Your message has been sent. Thank you!</div>
-						<div id="errormessage"></div>
-						<form action="" method="post" role="form" class="contactForm">
+								<div class="blankdivider30">
+			</div>
+			<div class="row">
+				<div class="container">
+
+					<div class="cform" id="contact-form" align="center">
+						
+						<form action="<?=_SPPATH;?>tambah/tambahfranchise" method="post" role="form" class="contactForm">
 							<div class="row">
 								<div class="span8" align="center">
 									<div class="field your-name form-group">
-										<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-										<div class="validation"></div>
+										<input type="text" name="nama" class="form-control" id="nama" placeholder="Your Name" data-rule="minlen:4" required/>
+										
 									</div>
 									<div class="field your-email form-group">
-										<input type="text" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-										<div class="validation"></div>
+										<input type="text" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" required />
+										
 									</div>
 									<div class="field subject form-group">
-										<input type="text" class="form-control" name="notelp" id="subject" placeholder="No. Telepon yg dapat dihubungi" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-										<div class="validation"></div>
+										<input type="text" class="form-control" name="notelp" id="notelp" placeholder="No. Telepon yg dapat dihubungi" data-rule="minlen:4" required />
+										
 									</div>
 									<div class="field subject form-group">
-										<input type="text" class="form-control" name="alamat" id="subject" placeholder="Your Address" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-										<div class="validation"></div>
+										<input type="text" class="form-control" name="alamat" id="alamat" placeholder="Your Address" data-rule="minlen:4" required/>
+										
 									</div>
 								
 									<div class="field message form-group">
-										<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-										<div class="validation"></div>
+										<textarea class="form-control" name="pesan" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message" required></textarea>
+										
 									</div>
 									<input type="submit" value="Send message" class="btn btn-theme pull-left">
 								</div>
@@ -373,7 +373,7 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
 				<!-- ./span12 -->
 			</div>
 		</div>
-	</section>
+	</section>                                                                                                                  
 	<!-- spacer section -->
 <section id="outlet" class="spacer bg3">
 		<div class="container">
@@ -399,30 +399,23 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
 		</div>
 	</section>
 	<!-- end spacer section -->
-
-	<section id="event" class="spacer">
-		<div class="container">
-			<div class="row">
-				<div class="span6">
-					
-				</div>
-			</div>
-		</div>
-	</section>
+<br>
+<br>
 	<!-- section: blog -->
-	<section id="contact"> 
+	<section id="contact" class="spacer"> 
 	<div class="container">
 		<div class="row">
   <h4 class="text-center">CONTACT</h4>
  
     <div class="span4 animated-fast flyIn">
-      <p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p> 
+      <font color="#000000"><p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Alam Sutra, Banten</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +628 1515151515</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p> </font>
     </div>
     <div class="span4 animated-fast flyIn">
       <div class="row">
+      	<form action="<?=_SPPATH;?>tambah/tambahcontact" method="post" >
         <div class="span4">
           <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
         </div>
@@ -430,7 +423,7 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
           <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
         </div>
       </div>
-      <textarea class="span4" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <textarea class="span4" id="comments" name="comments" placeholder="Comment" rows="5" required></textarea><br>
       <div class="row">
         <div class="col-sm-12 form-group">
           <button class="btn btn-default pull-right" type="submit">Send</button>
@@ -444,17 +437,33 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
 
 
 <!-- Add Google Maps -->
-<div id="googleMap" style="height:400px;width:100%;"></div>
-<script>
-function myMap() {
-var myCenter = new google.maps.LatLng(41.878114, -87.629798);
-var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-var marker = new google.maps.Marker({position:myCenter});
-marker.setMap(map);
-}
-</script>
- <script src="https://maps.googleapis.com/maps/api/js?key=your_key"></script>
+<style>
+      #map {
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: -6.225787, lng:106.660363};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 50,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeGxDkvcMHvgkHmDIW8UNATgDxcqhF7bg&callback=initMap">
+    </script>
 	<!-- end spacer section -->
 	<!-- section: contact -->
 	
@@ -469,7 +478,7 @@ marker.setMap(map);
 						<li><a href="#"><i class="icon-circled icon-bgdark icon-pinterest icon-2x"></i></a></li>
 					</ul>
 					<p class="copyright">
-						&copy; Maxim Theme. All rights reserved.
+						&copy; All rights reserved.
 						<div class="credits">
 							<!--
                 All the links in the footer should remain intact.
