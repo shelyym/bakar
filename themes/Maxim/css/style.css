@@ -344,7 +344,7 @@ ul#menu-main > li > a:focus {
 	width: 100%;
 	min-height: 500px;
 	margin-top: 0px;
-	padding-top:100px;
+	padding-top:0px;
 	text-align:center;
 }
 
@@ -447,7 +447,7 @@ header .logo {
 
 
 section.section {
-	padding: 100px 0 80px;
+	padding: 100px 0 100px;
 }
 section.section h4 {
 	text-align: center;
@@ -478,7 +478,7 @@ section.spacer {
 }
 
 .spacer.green,.section.green {
-	background:#1bac91;
+	background:#ffb84d;
 }
 
 .spacer.green,.section.green h4 {
@@ -983,7 +983,7 @@ section#about {
 	-webkit-box-shadow: none;
 }
 #contact-form input[type=submit]:hover, #contact-form input[type=submit]:active {
-	background: #43413e !important;
+	background: #ffad33 !important;
 }
 #contact-form textarea {
 	padding-top: 1em;
@@ -1331,7 +1331,7 @@ i.icon-white {
 .btn.disabled,
 .btn[disabled] {
   color: #fff;
-  background-color: #333;
+  background-color: #ffad33;
   *background-color: #333;
 }
 
@@ -1728,14 +1728,15 @@ i.icon-white {
 #contact{
     
     font-family: 'Teko', sans-serif;
-  padding-top: 60px;
+  padding-top: 10 auto;			
   width: 100%;
   width: 100vw;
-  height: 550px;
- 
+  height: 100px;
+  
+
 }
 .contact-section{
-  padding-top: 40px;
+  padding-top: 20px;
 }
 .contact-section .col-md-6{
   width: 50%;
@@ -1758,15 +1759,16 @@ label{
   color: #080808;
 }
 textarea.form-control {
-    height: 135px;
+    height: 160px;
    /* margin-top: px;*/
 }
 
 .submit{
   font-size: 1.1em;
   float: right;
-  width: 150px;
+  width: 50px;
   background-color: transparent;
   color: #fff;
 
 }
+

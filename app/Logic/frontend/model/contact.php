@@ -17,12 +17,12 @@ class ContactModel extends Model
 	var $pesan;
 
 
-public function tambahcontact(){
-	$franchise= new ContactModel();
-	$franchise->id=$_POST['id'];
-	$franchise->nama=$_POST['nama'];
-	$franchise->email=$_POST['email'];
-	$franchise->pesan=$_POST['pesan'];
-	$franchise->save();
-}
+// public function tambahcontact(){
+// 	$franchise= new ContactModel();
+// 	$franchise->id=$_POST['id'];
+// 	$franchise->nama=$_POST['nama'];
+// 	$franchise->email=$_POST['email'];
+// 	$franchise->pesan=$_POST['pesan'];
+// 	$franchise->save();
+// }
 }

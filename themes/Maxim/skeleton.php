@@ -6,8 +6,8 @@
 <head>     <meta charset="utf-8">     <title>lalal</title>     
 <meta name="viewport" content="width=device-width, initial-scale=1.0">     
 <meta name="description" content="">     <meta name="author" content="">     
-<link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-responsive.css" rel="stylesheet">
-<link href="<?=_SPPATH._THEMEPATH;?>///css/style.css" rel="stylesheet">
+<link href="<?=_SPPATH._THEMEPATH;?>/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="<?=_SPPATH._THEMEPATH;?>//css/style.css" rel="stylesheet">
 <link href="<?=_SPPATH._THEMEPATH;?>//color/default.css" rel="stylesheet">
 <link rel="<?=_SPPATH;?>/shortcut icon" href="<?=_SPPATH._THEMEPATH;?>/img/bakaro.png">
 </head>
@@ -21,7 +21,7 @@
 					<!-- Responsive navbar -->
 					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</a>
-						<!-- <a class="brand"><a href="index.html"><img src="<?=_SPPATH._THEMEPATH;?>/img/unnamed.png" height="200" width="200"></a></a> -->
+						<a class="brand"><a href="<?=_SPPATH;?>"><img src="<?=_SPPATH._THEMEPATH;?>/img/menu/bak.jpeg" height="200" width="200"></a></a>
 					<!-- navigation -->
 					<nav class="pull-right nav-collapse collapse">
 						<ul id="menu-main" class="nav">
@@ -100,8 +100,8 @@
 			<div class="row">
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/1.jpg" alt="" />
-						<h2>Tahun 2015</h2>
+						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/a2 ayam (1).jpg" height="400" width="300" alt="" />
+						<!-- <h2>Tahun 2015</h2> -->
 						<p> 	
 							
 						</p>
@@ -109,23 +109,14 @@
 				</div>
 				<div class="span4 animated flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/permana.jpg" alt="" />
-						<h2>Tahun 2016</h2>
+						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/a2 ayam.jpg" height="400" width="300" alt="" />
+						<!-- <h2>Tahun 2016</h2> -->
 						<p>
 							
 						</p>
 					</div>
 				</div>
-				<div class="span4 animated-fast flyIn">
-					<div class="service-box">
-						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/2.jpg" alt="" />
-						<h2>Tahun 2017</h2>
-						<p>
-							
-						</p>
-					</div>
-				</div>
-
+				
 				
 			</div>
 
@@ -134,7 +125,7 @@
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
 						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/Gambar Makanan5.jpg" alt="" />
-						<h2>Tahun 2015</h2>
+						<!-- <h2>Tahun 2015</h2> -->
 						<p>
 							
 						</p>
@@ -143,7 +134,7 @@
 				<div class="span4 animated flyIn">
 					<div class="service-box">
 						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/6.jpg" alt="" />
-						<h2>Tahun 2016</h2>
+						<!-- <h2>Tahun 2016</h2> -->
 						<p>
 							
 						</p>
@@ -152,7 +143,7 @@
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
 						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/11.jpg" alt="" />
-						<h2>Tahun 2017</h2>
+						<!-- <h2>Tahun 2017</h2> -->
 						<p>
 							
 						</p>
@@ -166,8 +157,8 @@
 			<div class="row">
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/j.jpg" alt="" />
-						<h2>Tahun 2015</h2>
+						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/cocacola.png" height="100" width="300" alt="" />
+						<!-- <h2>Tahun 2015</h2> -->
 						<p>
 							
 						</p>
@@ -175,8 +166,8 @@
 				</div>
 				<div class="span4 animated flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/g.jpg" alt="" />
-						<h2>Tahun 2016</h2>
+						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/fanta.png" alt="" />
+						<!-- <h2>Tahun 2016</h2> -->
 						<p>
 							
 						</p>
@@ -184,8 +175,8 @@
 				</div>
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/w.jpg" alt="" />
-						<h2>Tahun 2017</h2>
+						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/sprite.jpg" alt="" />
+						<!-- <h2>Tahun 2017</h2> -->
 						<p>
 							
 						</p>
@@ -199,8 +190,8 @@
 			<div class="row">
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/m.jpg" alt="" />
-						<h2>Tahun 2015</h2>
+						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/frestea.jpg" height="100" width="250" alt="" />
+						<!-- <h2>Tahun 2015</h2> -->
 						<p>
 							
 						</p>
@@ -208,8 +199,8 @@
 				</div>
 				<div class="span4 animated flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/o.jpg" alt="" />
-						<h2>Tahun 2016</h2>
+						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/air.jpg" height="200" width="300"  alt="" />
+						<!-- <h2>Tahun 2016</h2> -->
 						<p>
 							
 						</p>
@@ -217,8 +208,8 @@
 				</div>
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/k.jpg" alt="" />
-						<h2>Tahun 2017</h2>
+						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/tea.jpg" height="200" width="300" alt="" />
+						<!-- <h2>Tahun 2017</h2> -->
 						<p>
 							
 						</p>
@@ -289,7 +280,7 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
 			<div class="blankdivider30">
 			</div>
 			<div class="row">
-				<div class="span12">
+				<div class="container">
 									<div class="span 65 animated-fast flyIn">
 								
                                 <div class="box wow fadeInLeft animated" data-wow-delay=".5s" style="visibility: visible; -webkit-animation-delay:.5s;">
@@ -333,47 +324,53 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
 								<br>
 							<br>
 
-								<div class="blankdivider30">
+									<div class="blankdivider30">
 			</div>
+			<div class="container">
 			<div class="row">
-				<div class="container">
 
-					<div class="cform" id="contact-form" align="center">
-						
+				<div class="span12">
+					<div class="cform" id="contact-form">
+					
 						<form action="<?=_SPPATH;?>tambah/tambahfranchise" method="post" role="form" class="contactForm">
 							<div class="row">
-								<div class="span8" align="center">
+								<div class="span6">
 									<div class="field your-name form-group">
-										<input type="text" name="nama" class="form-control" id="nama" placeholder="Your Name" data-rule="minlen:4" required/>
-										
+										<input type="text" name="nama" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4"  required />
+										<div class="validation"></div>
 									</div>
 									<div class="field your-email form-group">
 										<input type="text" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" required />
-										
+										<div class="validation"></div>
 									</div>
 									<div class="field subject form-group">
-										<input type="text" class="form-control" name="notelp" id="notelp" placeholder="No. Telepon yg dapat dihubungi" data-rule="minlen:4" required />
-										
+										<input type="text" class="form-control" name="notelp" id="subject" placeholder="Your Phone" data-rule="minlen:4"  required/>
+										<div class="validation"></div>
 									</div>
+
 									<div class="field subject form-group">
-										<input type="text" class="form-control" name="alamat" id="alamat" placeholder="Your Address" data-rule="minlen:4" required/>
-										
+										<input type="text" class="form-control" name="alamat" id="subject" placeholder="Your Address" data-rule="minlen:4" required />
+										<div class="validation"></div>
 									</div>
-								
-									<div class="field message form-group">
-										<textarea class="form-control" name="pesan" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message" required></textarea>
-										
-									</div>
-									<input type="submit" value="Send message" class="btn btn-theme pull-left">
 								</div>
-			
+								<div class="span6">
+									<div class="field message form-group">
+										<textarea class="form-control" name="pesan" rows="5" data-rule="required" placeholder="Message" required ></textarea>
+										<div class="validation"></div>
+									</div>
+									<input type="submit" value="Send message" class="btn btn-default pull-right">
+								</div>
+
+							</div>
 						</form>
 					</div>
 				</div>
+
 				<!-- ./span12 -->
 			</div>
 		</div>
-	</section>                                                                                                                  
+		</div>
+	</section>                                                                          
 	<!-- spacer section -->
 <section id="outlet" class="spacer bg3">
 		<div class="container">
@@ -399,55 +396,25 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
 		</div>
 	</section>
 	<!-- end spacer section -->
-<br>
-<br>
+
 	<!-- section: blog -->
-	<section id="contact" class="spacer"> 
+	<section id="contact" class="section contact"> 
 	<div class="container">
 		<div class="row">
   <h4 class="text-center">CONTACT</h4>
- 
-    <div class="span4 animated-fast flyIn">
-      <font color="#000000"><p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Alam Sutra, Banten</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +628 1515151515</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p> </font>
-    </div>
-    <div class="span4 animated-fast flyIn">
-      <div class="row">
-      	<form action="<?=_SPPATH;?>tambah/tambahcontact" method="post" >
-        <div class="span4">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-        </div>
-        <div class="span4">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-        </div>
-      </div>
-      <textarea class="span4" id="comments" name="comments" placeholder="Comment" rows="5" required></textarea><br>
-      <div class="row">
-        <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
-        </div>
-      </div> 
-    </div>
-
-  </div>
-</div>
-</section>
-
-
-<!-- Add Google Maps -->
-<style>
+  <div class="span8 animated-fast flyIn">
+  	<!-- <div class="services box"> -->
+  <style>
       #map {
         width: 100%;
         height: 400px;
-        background-color: grey;
+        /*background-color: grey;*/
       }
     </style>
-  </head>
-  <body>
+  
     
     <div id="map"></div>
+
     <script>
       function initMap() {
         var uluru = {lat: -6.225787, lng:106.660363};
@@ -461,9 +428,48 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
         });
       }
     </script>
+
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeGxDkvcMHvgkHmDIW8UNATgDxcqhF7bg&callback=initMap">
     </script>
+</div>
+    <div class="span4 animated-fast flyIn">
+      <font color="#000000"><p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Alam Sutra, Banten</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +628 1515151515</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p> </font>
+    </div>
+    <div class="span4 animated-fast flyIn">
+      <div class="row">
+      	<form action="<?=_SPPATH;?>tambah/tambahcontact" method="post" >
+        <div class="span4">
+          <input class="form-control" id="name" name="nama" placeholder="Name" type="text" required>
+        </div>
+        <div class="span4">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div> 		
+      </div>
+      <textarea class="span4" id="pesan" name="pesan" placeholder="Comment" rows="5" required></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div> 
+    </div>
+</form>
+
+ 
+<!-- </div> -->
+</div>
+  </div>
+</div>
+</section>
+
+
+<!-- Add Google Maps -->
+
+
+   
 	<!-- end spacer section -->
 	<!-- section: contact -->
 	
@@ -472,10 +478,10 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
 			<div class="row">
 				<div class="span6 offset3">
 					<ul class="social-networks">
-						<li><a href="#"><i class="icon-circled icon-bgdark icon-instagram icon-2x"></i></a></li>
-						<li><a href="#"><i class="icon-circled icon-bgdark icon-twitter icon-2x"></i></a></li>
+						<li><a href="https://www.instagram.com/"><i class="icon-circled icon-bgdark icon-instagram icon-2x"></i></a></li>
+						<li><a href="https://twitter.com/login?lang=id"><i class="icon-circled icon-bgdark icon-twitter icon-2x"></i></a></li>
 						<li><a href="#"><i class="icon-circled icon-bgdark icon-dribbble icon-2x"></i></a></li>
-						<li><a href="#"><i class="icon-circled icon-bgdark icon-pinterest icon-2x"></i></a></li>
+						<li><a href="https://path.com/login"><i class="icon-circled icon-bgdark icon-pinterest icon-2x"></i></a></li>
 					</ul>
 					<p class="copyright">
 						&copy; All rights reserved.
@@ -508,7 +514,7 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
 	<script src="<?=_SPPATH._THEMEPATH;?>/js/inview.js"></script>
 	<script src="<?=_SPPATH._THEMEPATH;?>/js/animate.js"></script>
 	<script src="<?=_SPPATH._THEMEPATH;?>/js/custom.js"></script>
-	<script src="contactform/contactform.js"></script>
+	<script src="<?=_SPPATH._THEMEPATH;?>contactform/contactform.js"></script>
 
 </body>
 
