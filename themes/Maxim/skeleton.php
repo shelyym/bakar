@@ -3,11 +3,11 @@
 ?>
 <html>
 
-<head>     <meta charset="utf-8">     <title>lalal</title>     
+<head>     <meta charset="utf-8">     <title>bakaro</title>     
 <meta name="viewport" content="width=device-width, initial-scale=1.0">     
 <meta name="description" content="">     <meta name="author" content="">     
-<link href="<?=_SPPATH._THEMEPATH;?>/css/bootstrap-responsive.css" rel="stylesheet">
-<link href="<?=_SPPATH._THEMEPATH;?>//css/style.css" rel="stylesheet">
+<link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-responsive.css" rel="stylesheet">
+<link href="<?=_SPPATH._THEMEPATH;?>////css/style.css" rel="stylesheet">
 <link href="<?=_SPPATH._THEMEPATH;?>//color/default.css" rel="stylesheet">
 <link rel="<?=_SPPATH;?>/shortcut icon" href="<?=_SPPATH._THEMEPATH;?>/img/bakaro.png">
 </head>
@@ -52,17 +52,18 @@
 							<ul class="slides">
 								<li>
 									<p class="home-slide-content">
-										<strong>creative</strong> and passion
+										<strong>BAKARO</strong> 
+									</p>
+								</li>
+								
+								<li>
+									<p class="home-slide-content">
+										Grilled <strong>Beef</strong> Bowl
 									</p>
 								</li>
 								<li>
 									<p class="home-slide-content">
-										Eat and drink <strong>design</strong>
-									</p>
-								</li>
-								<li>
-									<p class="home-slide-content">
-										We loves <strong>simplicity</strong>
+										 <strong>Great Taste</strong>  and <strong> Price</strong> 
 									</p>
 								</li>
 							</ul>
@@ -75,18 +76,20 @@
 		</header>
 	</div>
 	<!-- spacer section -->
-	<section class="spacer bg3">
+	<section class="spacer bg4">
 		<div class="container">
 			<blockquote class="large">
-						Makanan Unggulan yang terbuat dari beberapa bahan-bahan unggulan <cite></cite>
+				<?=Efiwebsetting::getData("Text_blockquote");
+
+				?>
+						
 					</blockquote>
 			<div class="row">
 				<div class="span6 alignright flyLeft">
-					<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/Menu 2.jpg" height="400" width="300" alt="" />
+					<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("gambar1")?>" height="800" width="700" alt="" />
 				</div>
 				<div class="span6 aligncenter flyRight">
-					<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/mENU1.jpg" height="400" width="300" alt="" />
-				</div>
+					<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("gambar2")?>" height="800" width="700" alt="" />
 			</div>
 		</div>
 	</section>
@@ -100,7 +103,7 @@
 			<div class="row">
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/a2 ayam (1).jpg" height="400" width="300" alt="" />
+						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_makanan1")?>" height="400" width="300" alt="" />
 						<!-- <h2>Tahun 2015</h2> -->
 						<p> 	
 							
@@ -109,7 +112,7 @@
 				</div>
 				<div class="span4 animated flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/a2 ayam.jpg" height="400" width="300" alt="" />
+						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_makanan3")?>" height="400" width="300" alt="" />
 						<!-- <h2>Tahun 2016</h2> -->
 						<p>
 							
@@ -117,48 +120,26 @@
 					</div>
 				</div>
 				
-				
+					<div class="span4 animated-fast flyIn">
+					<div class="service-box">
+						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_makanan2")?>" height="400" width="300" alt="" />
+						<!-- <h2>Tahun 2015</h2> -->
+						<p> 	
+							
+						</p>
+					</div>
+				</div>
 			</div>
 
 			<!-- Four columns -->
-			<div class="row">
-				<div class="span4 animated-fast flyIn">
-					<div class="service-box">
-						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/Gambar Makanan5.jpg" alt="" />
-						<!-- <h2>Tahun 2015</h2> -->
-						<p>
-							
-						</p>
-					</div>
-				</div>
-				<div class="span4 animated flyIn">
-					<div class="service-box">
-						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/6.jpg" alt="" />
-						<!-- <h2>Tahun 2016</h2> -->
-						<p>
-							
-						</p>
-					</div>
-				</div>
-				<div class="span4 animated-fast flyIn">
-					<div class="service-box">
-						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/11.jpg" alt="" />
-						<!-- <h2>Tahun 2017</h2> -->
-						<p>
-							
-						</p>
-					</div>
-				</div>
-				
-				
-			</div>
+			<!--  -->
 			<h2><li>Daftar Minuman</li></h2>
 			<!-- Four columns -->
 			<div class="row">
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/cocacola.png" height="100" width="300" alt="" />
-						<!-- <h2>Tahun 2015</h2> -->
+						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_minuman1")?>"  alt="" />
+						<h2>   Rp. 6000.-</h2>
 						<p>
 							
 						</p>
@@ -166,8 +147,8 @@
 				</div>
 				<div class="span4 animated flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/fanta.png" alt="" />
-						<!-- <h2>Tahun 2016</h2> -->
+						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_minuman2")?>"  alt="" />
+						<h2> Rp. 6000.-</h2>
 						<p>
 							
 						</p>
@@ -175,8 +156,8 @@
 				</div>
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/sprite.jpg" alt="" />
-						<!-- <h2>Tahun 2017</h2> -->
+						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_minuman3")?>"  alt="" />
+						<h2> Rp. 6000.-</h2>
 						<p>
 							
 						</p>
@@ -190,8 +171,8 @@
 			<div class="row">
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/frestea.jpg" height="100" width="250" alt="" />
-						<!-- <h2>Tahun 2015</h2> -->
+						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_minuman4")?>"  alt="" />
+						<h2> Rp. 6000.-</h2>
 						<p>
 							
 						</p>
@@ -199,8 +180,8 @@
 				</div>
 				<div class="span4 animated flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/air.jpg" height="200" width="300"  alt="" />
-						<!-- <h2>Tahun 2016</h2> -->
+						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_minuman5")?>" height="500" width="300" alt="" />
+						<h2> Rp. 4000.-</h2>
 						<p>
 							
 						</p>
@@ -208,8 +189,8 @@
 				</div>
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH._THEMEPATH;?>/img/menu/tea.jpg" height="200" width="300" alt="" />
-						<!-- <h2>Tahun 2017</h2> -->
+						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_minuman6")?>" height="400" width="200" alt="" />
+						<h2> Rp. 4000.-</h2>
 						<p>
 							
 						</p>
@@ -230,37 +211,28 @@
 			<div class="row">
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH._THEMEPATH;?>/img/icons/3357profil.png" alt="" />
+						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("profil_gambar1")?>" alt="" />
 						<h2>Tahun 2015</h2>
 						<p>
-							Ayam Keprabon merupakan rumah makan Asli Solo yang berdiri pada tanggal 13 Juli 2015 yang menyajikan menu makanan ayam geprek dan ayam goreng kremes sebagai menu andalan.
-
-Bermula di Jl Teuku Umar no 30 Keprabon Solo dan dibangung oleh Bp. Yonathan Sebastian beserta istri, Ayam keprabon mendapatkan respon yang sangat baik di masyarakat Solo.
+							<?=Efiwebsetting::getData("History_text1")?>
 						</p>
 					</div>
 				</div>
 				<div class="span4 animated flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH._THEMEPATH;?>/img/icons/4175gal1.jpg" alt="" />
+						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("profil_gambar2")?>" alt="" />
 						<h2>Tahun 2016</h2>
 						<p>
-							Pada mei 2016 maka cabang pertama ayam keprabon dibuka tepatnya di Jl. Raya ruko solo baru Blok b18.
+							<?=Efiwebsetting::getData("History_text2")?>
 						</p>
 					</div>
 				</div>
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH._THEMEPATH;?>/img/icons/6510sejarah.jpg" alt="" />
+						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("profil_gambar3")?>" alt="" />
 						<h2>Tahun 2017</h2>
 						<p>
-							Pada Awal jan 2017 ayam keprabon memfranchisekan bisnis ini.
-
-Berbagai kota mulai mendaftarkan diri mulai dari Jakarta, Sragen, Banjarmasin, semarang, boyolali, ponorogo, tangerang,makassar dsb.
-
-Hingga saat ini Ayam Keprabon memiliki 28 cabang yang tersebar diberbagai kota dan akan terus bertambah karena tingginya permintaan pasar atas rumah makan yang enak,bersih dan terjangkau seperti Ayam Keprabon.
-
-Mau ayam keprabon hadir di kota mu?
-Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan sehari hari anda.
+							<?=Efiwebsetting::getData("History_text3")?>
 						</p>
 					</div>
 				</div>
@@ -270,13 +242,10 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
 	</section>
 	<!-- end section: services -->
 	<!-- section: works -->
-	<section id="frenchise" class="section spacer green">
+	<section id="frenchise" class="section spacer orange">
 		<div class="container">
 			<h4>Franchise</h4>
-			<p>
-				Reque facer nostro et ius, cu persius mnesarchum disputando eam, clita prompta et mel vidisse phaedrum pri et. Facilisis posidonium ex his. Mutat iudico vis in, mea aeque tamquam scripserit an, mea eu ignota viderer probatus. Lorem legere consetetur ei
-				eum. Sumo aeque assentior te eam, pri nominati posidonium consttuam
-			</p>
+			
 			<div class="blankdivider30">
 			</div>
 			<div class="row">
@@ -288,13 +257,13 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
                     <h1>KONSEP BISNIS FRANCHISE</h1>
                     <p><ul>
 	<li>
-		Kerjasama Franchise 5 tahun, diatur dalam sebuah Franchise Agreement</li>
+		<?=Efiwebsetting::getData("franchise_text1")?></li>
 	<li>
-		Franchisee wajib membeli bahan baku dan packaging dari Franchisor.</li>
+		<?=Efiwebsetting::getData("franchise_text2")?></li>
 	<li>
-		Franchisee membayarkan management Fee bulanan sebesar 5% dari Penjualan Outlet kepada Franchisor selama masa kerjasama.</li>
+		<?=Efiwebsetting::getData("franchise_text3")?></li>
 	<li>
-		Franchisor menyediakan Paket Franchise siap pakai, pelatihan karyawan di awal usaha, dan bimbingan &amp; konsultasi berkelanjutan selama masa kerjasama.</li>
+		<?=Efiwebsetting::getData("franchise_text4")?></li>
 </ul>
 </p>
                 </div>
@@ -302,17 +271,17 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
                     <h1>TAHAPAN MENJADI FRANCHISEE</h1>
                     <p><ul>
 	<li>
-		Presentasi Bisnis Ayam Keprabon</li>
+		<?=Efiwebsetting::getData("franchise_text5")?></li>
 	<li>
-		Pengisian Form Calon Franchisee</li>
+		<?=Efiwebsetting::getData("franchise_text6")?></li>
 	<li>
-		Pembayaran Commitment Fee Rp. 10 juta</li>
+		<?=Efiwebsetting::getData("franchise_text7")?></li>
 	<li>
-		Penandatanganan Perjanjian Franchise dan Pelunasan Pembayaran Paket Franchise.</li>
+		<?=Efiwebsetting::getData("franchise_text8")?></li>
 	<li>
-		Pengiriman Booth/ Peralatan, Training Karyawan, Persiapan Pre Opening.</li>
+		<?=Efiwebsetting::getData("franchise_text9")?></li>
 	<li>
-		Grand Opening</li>
+		<?=Efiwebsetting::getData("franchise_text10")?></li>
 </ul>
 </p>
                 </div>
@@ -322,6 +291,8 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
 
 							<h4>FORM CALON FRANCHISEE</h>
 								<br>
+							
+								</li>
 							<br>
 
 									<div class="blankdivider30">
@@ -331,7 +302,9 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
 
 				<div class="span12">
 					<div class="cform" id="contact-form">
-					
+					<?php if(!empty($statusMsg)){ ?>
+            <p class="statusMsg <?php echo !empty($msgClass)?$msgClass:''; ?>"><?php echo $statusMsg; ?></p>
+        		<?php } ?>
 						<form action="<?=_SPPATH;?>tambah/tambahfranchise" method="post" role="form" class="contactForm">
 							<div class="row">
 								<div class="span6">
@@ -349,7 +322,7 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
 									</div>
 
 									<div class="field subject form-group">
-										<input type="text" class="form-control" name="alamat" id="subject" placeholder="Your Address" data-rule="minlen:4" required />
+										<input type="text" class="form-control" name="subject" id="subject" placeholder="Your Address" data-rule="minlen:4" required />
 										<div class="validation"></div>
 									</div>
 								</div>
@@ -376,7 +349,9 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
 		<div class="container">
 			<div class="row">
 				<div class="span6 alignright flyLeft">
-<h3><font color="#fff">
+
+				
+<!-- <h3><font color="#fff">
 				<li>Ayam Keprabon Mojosongo</li>
 					<li>Ayam Keprabon Express Margonda</li>
 					<li>Ayam Keprabon Express Kelapa Dua, Depok</li>
@@ -387,10 +362,10 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
 					<li>Ayam Keprabon Pusat</li>
 					<li>Ayam Keprabon Jembatan Lima</li>
 					<li>Ayam Keprabon Boyolali</li>
-				</font></h3>
+				</font></h3> -->
 				</div>
 				<div class="span6 aligncenter flyRight">
-					<img src="<?=_SPPATH._THEMEPATH;?>/img/icons/map.png" alt="" />
+					<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("gambar_maps")?>" height= "10000" width="10000" alt="" />
 				</div>
 			</div>
 		</div>
@@ -417,7 +392,7 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
 
     <script>
       function initMap() {
-        var uluru = {lat: -6.225787, lng:106.660363};
+        var uluru = {lat: -6.306721, lng:106.755524};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 50,
           center: uluru
@@ -435,9 +410,9 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
 </div>
     <div class="span4 animated-fast flyIn">
       <font color="#000000"><p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Alam Sutra, Banten</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +628 1515151515</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p> </font>
+      <p><span class="glyphicon glyphicon-map-marker"></span> <?=Efiwebsetting::getData("Address1") ?></p>
+      <p><span class="glyphicon glyphicon-phone"></span>  <?=Efiwebsetting::getData("notelp_bakaro") ?></p>
+      <p><span class="glyphicon glyphicon-envelope"></span> <?=Efiwebsetting::getData("email_bakaro") ?></p> </font>
     </div>
     <div class="span4 animated-fast flyIn">
       <div class="row">
@@ -456,9 +431,10 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
         </div>
       </div> 
     </div>
-</form>
-
- 
+<!-- </form>
+ -->
+ </div>
+</div>
 <!-- </div> -->
 </div>
   </div>
@@ -478,44 +454,43 @@ Tunggu pergerakan kami dan pastikan ayam keprabon menjadi pilihan utama makanan 
 			<div class="row">
 				<div class="span6 offset3">
 					<ul class="social-networks">
-						<li><a href="https://www.instagram.com/"><i class="icon-circled icon-bgdark icon-instagram icon-2x"></i></a></li>
-						<li><a href="https://twitter.com/login?lang=id"><i class="icon-circled icon-bgdark icon-twitter icon-2x"></i></a></li>
-						<li><a href="#"><i class="icon-circled icon-bgdark icon-dribbble icon-2x"></i></a></li>
-						<li><a href="https://path.com/login"><i class="icon-circled icon-bgdark icon-pinterest icon-2x"></i></a></li>
+						<li><a href="https://instagram.com/bakarogrill/"><i class="icon-circled icon-bgdark icon-instagram icon-2x"></i></a></li>
+						<li><a href="https://facebook.com/bakarogrill/"><i class="icon-circled icon-bgdark icon-facebook icon-2x"></i></a></li>
+						
 					</ul>
 					<p class="copyright">
-						&copy; All rights reserved.
-						<div class="credits">
-							<!--
-                All the links in the footer should remain intact.
-                You can delete the links only if you purchased the pro version.
-                Licensing information: https://bootstrapmade.com/license/
-                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Maxim
-              -->
-							
-						</div>
+						&copy; . All rights reserved.
+					
 					</p>
 				</div>
-			</div>
+			</div> 
 		</div>
-
-
-		<!-- ./container -->
-	</footer>
+		<!-- ./container
+	</footer> -->
 	<a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
 	<script src="<?=_SPPATH._THEMEPATH;?>/js/jquery.js"></script>
 	<script src="<?=_SPPATH._THEMEPATH;?>/js/jquery.scrollTo.js"></script>
 	<script src="<?=_SPPATH._THEMEPATH;?>/js/jquery.nav.js"></script>
 	<script src="<?=_SPPATH._THEMEPATH;?>/js/jquery.localScroll.js"></script>
-	<script src="<?=_SPPATH._THEMEPATH;?>/js/bootstrap.js"></script>
+	<script src="<?=_SPPATH._THEMEPATH;?>//js/bootstrap.js"></script>
 	<script src="<?=_SPPATH._THEMEPATH;?>/js/jquery.prettyPhoto.js"></script>
 	<script src="<?=_SPPATH._THEMEPATH;?>/js/isotope.js"></script>
 	<script src="<?=_SPPATH._THEMEPATH;?>/js/jquery.flexslider.js"></script>
 	<script src="<?=_SPPATH._THEMEPATH;?>/js/inview.js"></script>
 	<script src="<?=_SPPATH._THEMEPATH;?>/js/animate.js"></script>
 	<script src="<?=_SPPATH._THEMEPATH;?>/js/custom.js"></script>
-	<script src="<?=_SPPATH._THEMEPATH;?>contactform/contactform.js"></script>
+	<script src="contactform/contactform.js"></script>
 
 </body>
 
 </html>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114384409-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114384409-1');
+</script>

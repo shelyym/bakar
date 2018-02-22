@@ -305,7 +305,7 @@ h2.pagetitle {
 }
 .navbar-inverse .navbar-inner {
 	background-repeat: repeat;
-	background-color: #e60000;
+	background-color: #0b333f;
 }
 .navbar-wrapper {
 	overflow:hidden;
@@ -379,7 +379,6 @@ header .logo {
 	-o-background-size: cover;
 	background-size: cover;
 }
-
 #main-flexslider ul.slides li p {
 	font-size: 72px;
 	text-transform: uppercase;
@@ -447,7 +446,7 @@ header .logo {
 
 
 section.section {
-	padding: 100px 0 100px;
+	padding: 100px 0 80px;
 }
 section.section h4 {
 	text-align: center;
@@ -478,7 +477,7 @@ section.spacer {
 }
 
 .spacer.green,.section.green {
-	background:#ffb84d;
+	background:#1bac91;
 }
 
 .spacer.green,.section.green h4 {
@@ -489,7 +488,7 @@ section.spacer {
 	background:#ffe873;
 }
 .spacer.orange,.section.orange {
-	background: #cc0000;
+	background:#ffa64d;
 }
 
 section.spacer.bg2 {
@@ -506,7 +505,7 @@ section.spacer.bg3 {
 	margin:0;	
 }
 section.spacer.bg4 {
-	background: url(../img/bg/bg-4.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/bg/Polos.png) 50% 0 no-repeat fixed;
 	width:100%;
 	height:auto;
 	margin:0;	
@@ -983,7 +982,7 @@ section#about {
 	-webkit-box-shadow: none;
 }
 #contact-form input[type=submit]:hover, #contact-form input[type=submit]:active {
-	background: #ffad33 !important;
+	background: #43413e !important;
 }
 #contact-form textarea {
 	padding-top: 1em;
@@ -1075,7 +1074,7 @@ footer ul.social-networks li a i.icon-twitter:hover {
 	background: #5ad2eb;
 	color: #fff;
 }
-footer ul.social-networks li a i.icon-dribbble:hover {
+footer ul.social-networks li a i.icon-facebook:hover {
 	background: #f57b71;
 	color: #fff;
 }
@@ -1331,7 +1330,7 @@ i.icon-white {
 .btn.disabled,
 .btn[disabled] {
   color: #fff;
-  background-color: #ffad33;
+  background-color: #333;
   *background-color: #333;
 }
 
@@ -1714,61 +1713,3 @@ i.icon-white {
 		width: 100%;
 	}
 }
-/*Contact sectiom*/
-.content-header{
-  font-family: 'Oleo Script', cursive;
-  color:#fcc500;
-  font-size: 45px;
-}
-
-.section-content{
-  text-align: center; 
-
-}
-#contact{
-    
-    font-family: 'Teko', sans-serif;
-  padding-top: 10 auto;			
-  width: 100%;
-  width: 100vw;
-  height: 100px;
-  
-
-}
-.contact-section{
-  padding-top: 20px;
-}
-.contact-section .col-md-6{
-  width: 50%;
-}
-
-.form-line{
-  border-right: 1px solid #B29999;
-}
-
-.form-group{
-  margin-top: 10px;
-}
-label{
-  font-size: 1.3em;
-  line-height: 1em;
-  font-weight: normal;
-}
-.form-control{
-  font-size: 1.3em;
-  color: #080808;
-}
-textarea.form-control {
-    height: 160px;
-   /* margin-top: px;*/
-}
-
-.submit{
-  font-size: 1.1em;
-  float: right;
-  width: 50px;
-  background-color: transparent;
-  color: #fff;
-
-}
-

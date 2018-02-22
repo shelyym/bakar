@@ -8,35 +8,30 @@ class tambah extends WebService
 	
 	function tambahfranchise()
 	{
+$tujuan = "shellymonica1998@gmail.com";
+    
+    $nama = $_POST['nama'];
+    $alamat= $_POST['alamat'];
+    $notelp = $_POST['notelp'];
+    $email = $_POST['email'];
+    $pesan = $_POST['pesan'];
+    $header = "From:$nama \r\n";
+    $kirim = mail($tujuan,$nama,$pesan,$header);
+    if( $kirim == true ) 
+    {
+        echo"<script>alert('anda berhasil bergabung menjadi franchise kami, silahkan tunggu info selanjutnya dari kami');window.location.href='"._SPPATH."';</script>";
+    }
+    else
+    {
+        echo "Pesan gagal terkirim";
+    }
+		
 
-if(isset($_POST['nama'])){
-$nama=$_POST['nama'];
-$email=$_POST['email'];
-$notelp=$_POST['notelp'];
-$alamat=$_POST['alamat'];
-$pesan=$_POST['pesan'];
-if($nama&&$email&&$notelp&&$alamat&&$pesan){
-$count=mysql_num_rows(mysql_query("select * from franchise_form"));
-if($count < 0){
-echo"<script>alert('username sudah digunakan');window.location.href='"._SPPATH."'</script>";
-}else{
-mysql_query("insert into franchise_form(nama,email,notelp,alamat,pesan)values('$nama','$email','$notelp','$alamat','$pesan')");
-echo"<script>alert('anda berhasil bergabung menjadi franchise kami, silahkan tunggu info selanjutnya dari kami');window.location.href='"._SPPATH."';</script>";
-}
-}else{
-echo"<script>alert('semua form wajib di isi');window.location.href='"._SPPATH."';</script>";
-}
+
+
 }
 
-	// $franchise= new FranchiseModel();
-	// $franchise->id=$_POST['id'];
-	// $franchise->nama=$_POST['nama'];
-	// $franchise->email=$_POST['email'];
-	// $franchise->notelp=$_POST['notelp'];
-	// $franchise->alamat=$_POST['alamat'];
-	// $franchise->pesan=$_POST['alamat'];
-	// $franchise->save();
-}
+	
 
 
 function tambahcontact()
