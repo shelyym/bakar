@@ -156,7 +156,7 @@
 				</div>
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_minuman3")?>"  alt="" />
+						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_minuman")?>"  alt="" />
 						<h2> Rp. 6000.-</h2>
 						<p>
 							
@@ -180,7 +180,7 @@
 				</div>
 				<div class="span4 animated flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_minuman5")?>" height="500" width="300" alt="" />
+						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_minuman5")?>"  alt="" />
 						<h2> Rp. 4000.-</h2>
 						<p>
 							
@@ -189,7 +189,7 @@
 				</div>
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_minuman6")?>" height="400" width="200" alt="" />
+						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_minuman6")?>" alt="" />
 						<h2> Rp. 4000.-</h2>
 						<p>
 							
@@ -351,18 +351,9 @@
 				<div class="span6 alignright flyLeft">
 
 				
-<!-- <h3><font color="#fff">
-				<li>Ayam Keprabon Mojosongo</li>
-					<li>Ayam Keprabon Express Margonda</li>
-					<li>Ayam Keprabon Express Kelapa Dua, Depok</li>
-					<li>Ayam Keprabon Binus</li>
-					<li>Ayam Keprabon Teluk Gong</li>
-					<li>Ayam Keprabon Palmerah</li>
-					<li>Ayam Keprabon Express Condet</li>
-					<li>Ayam Keprabon Pusat</li>
-					<li>Ayam Keprabon Jembatan Lima</li>
-					<li>Ayam Keprabon Boyolali</li>
-				</font></h3> -->
+<h3><font color="#fff">
+				<h3> <?=Efiwebsetting::getData("Address1") ?> 
+				</font></h3>
 				</div>
 				<div class="span6 aligncenter flyRight">
 					<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("gambar_maps")?>" height= "10000" width="10000" alt="" />
