@@ -86,10 +86,10 @@
 					</blockquote>
 			<div class="row">
 				<div class="span6 alignright flyLeft">
-					<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("gambar1")?>" height="800" width="700" alt="" />
+					<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar1")?>" height="800" width="700" alt="" />
 				</div>
 				<div class="span6 aligncenter flyRight">
-					<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("gambar2")?>" height="800" width="700" alt="" />
+					<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar2")?>" height="800" width="700" alt="" />
 			</div>
 		</div>
 	</section>
@@ -103,7 +103,7 @@
 			<div class="row">
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_makanan1")?>" height="400" width="300" alt="" />
+						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_makanan1")?>" height="400" width="300" alt="" />
 						<!-- <h2>Tahun 2015</h2> -->
 						<p> 	
 							
@@ -112,7 +112,7 @@
 				</div>
 				<div class="span4 animated flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_makanan3")?>" height="400" width="300" alt="" />
+						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_makanan3")?>" height="400" width="300" alt="" />
 						<!-- <h2>Tahun 2016</h2> -->
 						<p>
 							
@@ -122,7 +122,7 @@
 				
 					<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_makanan2")?>" height="400" width="300" alt="" />
+						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_makanan2")?>" height="400" width="300" alt="" />
 						<!-- <h2>Tahun 2015</h2> -->
 						<p> 	
 							
@@ -138,7 +138,7 @@
 			<div class="row">
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_minuman1")?>"  alt="" />
+						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_minuman1")?>"  alt="" />
 						<h2>   Rp. 6000.-</h2>
 						<p>
 							
@@ -147,7 +147,7 @@
 				</div>
 				<div class="span4 animated flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_minuman2")?>"  alt="" />
+						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_minuman2")?>"  alt="" />
 						<h2> Rp. 6000.-</h2>
 						<p>
 							
@@ -156,7 +156,7 @@
 				</div>
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_minuman")?>"  alt="" />
+						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_minuman")?>"  alt="" />
 						<h2> Rp. 6000.-</h2>
 						<p>
 							
@@ -171,7 +171,7 @@
 			<div class="row">
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_minuman4")?>"  alt="" />
+						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_minuman4")?>"  alt="" />
 						<h2> Rp. 6000.-</h2>
 						<p>
 							
@@ -180,7 +180,7 @@
 				</div>
 				<div class="span4 animated flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_minuman5")?>"  alt="" />
+						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_minuman5")?>"  alt="" />
 						<h2> Rp. 4000.-</h2>
 						<p>
 							
@@ -189,7 +189,7 @@
 				</div>
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("menu_minuman6")?>" alt="" />
+						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_minuman6")?>" alt="" />
 						<h2> Rp. 4000.-</h2>
 						<p>
 							
@@ -211,7 +211,7 @@
 			<div class="row">
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("profil_gambar1")?>" alt="" />
+						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("profil_gambar1")?>" alt="" />
 						<h2>Tahun 2015</h2>
 						<p>
 							<?=Efiwebsetting::getData("History_text1")?>
@@ -220,7 +220,7 @@
 				</div>
 				<div class="span4 animated flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("profil_gambar2")?>" alt="" />
+						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("profil_gambar2")?>" alt="" />
 						<h2>Tahun 2016</h2>
 						<p>
 							<?=Efiwebsetting::getData("History_text2")?>
@@ -229,7 +229,7 @@
 				</div>
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("profil_gambar3")?>" alt="" />
+						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("profil_gambar3")?>" alt="" />
 						<h2>Tahun 2017</h2>
 						<p>
 							<?=Efiwebsetting::getData("History_text3")?>
@@ -356,7 +356,7 @@
 				</font></h3>
 				</div>
 				<div class="span6 aligncenter flyRight">
-					<img src="<?=_SPPATH;?>/uploads/<?=Efiwebsetting::getData("gambar_maps")?>" height= "10000" width="10000" alt="" />
+					<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_maps")?>" height= "10000" width="10000" alt="" />
 				</div>
 			</div>
 		</div>
