@@ -351,7 +351,7 @@
 				<div class="span6 alignright flyLeft">
 
 				
-<h3><font color="#fff">
+<font color="#fff">
 				<h3> <?=Efiwebsetting::getData("Address1") ?> 
 				</h3>
 				<h3> <?=Efiwebsetting::getData("Address2") ?> 
