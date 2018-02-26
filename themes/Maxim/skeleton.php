@@ -353,7 +353,9 @@
 				
 <h3><font color="#fff">
 				<h3> <?=Efiwebsetting::getData("Address1") ?> 
-				</font></h3>
+				</h3>
+				<h3> <?=Efiwebsetting::getData("Address2") ?> 
+				</h3></font>
 				</div>
 				<div class="span6 aligncenter flyRight">
 					<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_maps")?>" height= "10000" width="10000" alt="" />
@@ -385,7 +387,7 @@
       function initMap() {
         var uluru = {lat: -6.306721, lng:106.755524};
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 50,
+          zoom: 18,
           center: uluru
         });
         var marker = new google.maps.Marker({
@@ -402,6 +404,7 @@
     <div class="span4 animated-fast flyIn">
       <font color="#000000"><p>Contact us and we'll get back to you within 24 hours.</p>
       <p><span class="glyphicon glyphicon-map-marker"></span> <?=Efiwebsetting::getData("Address1") ?></p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> <?=Efiwebsetting::getData("Address2") ?></p>
       <p><span class="glyphicon glyphicon-phone"></span>  <?=Efiwebsetting::getData("notelp_bakaro") ?></p>
       <p><span class="glyphicon glyphicon-envelope"></span> <?=Efiwebsetting::getData("email_bakaro") ?></p> </font>
     </div>
