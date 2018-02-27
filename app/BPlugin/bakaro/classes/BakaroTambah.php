@@ -40,7 +40,7 @@ class BakaroTambah extends WebService
 	$email = new Leapmail();
         $subject = "Kontak Kami";
         $pesan = "Nama:" . $contact->nama . "\n" . "Alamat Email:" . $contact->email . "\n" . "Pesan:" . $contact->pesan;
-        $to = "shellymonica1998@gmail.com";
+        $to = "bakarogrill@gmail.com";
 
         $email->sendEmail($to,$subject,$pesan);
 
