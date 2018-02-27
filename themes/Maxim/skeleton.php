@@ -305,7 +305,7 @@
 					<?php if(!empty($statusMsg)){ ?>
             <p class="statusMsg <?php echo !empty($msgClass)?$msgClass:''; ?>"><?php echo $statusMsg; ?></p>
         		<?php } ?>
-						<form action="<?=_SPPATH;?>tambah/tambahfranchise" method="post" role="form" class="contactForm">
+						<form action="<?=_SPPATH;?>BakaroTambah/FranchiseForm" method="post" role="form" class="contactForm">
 							<div class="row">
 								<div class="span6">
 									<div class="field your-name form-group">
@@ -322,7 +322,7 @@
 									</div>
 
 									<div class="field subject form-group">
-										<input type="text" class="form-control" name="subject" id="subject" placeholder="Your Address" data-rule="minlen:4" required />
+										<input type="text" class="form-control" name="alamat" id="subject" placeholder="Your Address" data-rule="minlen:4" required />
 										<div class="validation"></div>
 									</div>
 								</div>
@@ -410,7 +410,7 @@
     </div>
     <div class="span4 animated-fast flyIn">
       <div class="row">
-      	<form action="<?=_SPPATH;?>tambah/tambahcontact" method="post" >
+      	<form action="<?=_SPPATH;?>BakaroTambah/ContactForm" method="post" >
         <div class="span4">
           <input class="form-control" id="name" name="nama" placeholder="Name" type="text" required>
         </div>
