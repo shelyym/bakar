@@ -25,7 +25,6 @@ class BakaroTambah extends WebService
 
         $email->sendEmail($to,$subject,$pesan);
 		
-
 	}
 
 	function ContactForm(){
