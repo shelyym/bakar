@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">     
 <meta name="description" content="">     <meta name="author" content="">     
 <link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-responsive.css" rel="stylesheet">
-<link href="<?=_SPPATH._THEMEPATH;?>////css/style.css" rel="stylesheet">
+<link href="<?=_SPPATH._THEMEPATH;?>///css/style.css" rel="stylesheet">
 <link href="<?=_SPPATH._THEMEPATH;?>//color/default.css" rel="stylesheet">
 <link rel="<?=_SPPATH;?>/shortcut icon" href="<?=_SPPATH._THEMEPATH;?>/img/bakaro.png">
 </head>
@@ -206,37 +206,44 @@
 	<!-- section: services -->
 	<section id="services" class="section spacer3">
 		<div class="container">
-			<h4>Sejarah Singkat</h4>
+			<h4>Sekilas Tentang Bakaro</h4>
 			<!-- Four columns -->
 			<div class="row">
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
 						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("profil_gambar1")?>" alt="" />
-						<h2>Tahun 2015</h2>
-						<p>
+						<!-- <h2>Tahun 2015</h2> -->
+						<!-- <p>
 							<?=Efiwebsetting::getData("History_text1")?>
-						</p>
+
+						</p>  -->
 					</div>
 				</div>
 				<div class="span4 animated flyIn">
 					<div class="service-box">
 						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("profil_gambar2")?>" alt="" />
-						<h2>Tahun 2016</h2>
-						<p>
+						<!-- <h2>Tahun 2016</h2> -->
+						<!-- <p>
 							<?=Efiwebsetting::getData("History_text2")?>
-						</p>
+						</p> -->
 					</div>
 				</div>
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
 						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("profil_gambar3")?>" alt="" />
-						<h2>Tahun 2017</h2>
-						<p>
+						<!-- <h2>Tahun 2017</h2> -->
+						<!-- <p>
 							<?=Efiwebsetting::getData("History_text3")?>
-						</p>
+						</p> -->
 					</div>
 				</div>
-				
+				<p>
+					<p><?=Efiwebsetting::getData("History_text1")?></p>
+
+<p><?=Efiwebsetting::getData("History_text2")?></p>
+
+<p><?=Efiwebsetting::getData("History_text3")?>
+</p></p>
 			</div>
 		</div>
 	</section>
@@ -348,7 +355,7 @@
 <section id="outlet" class="spacer bg3">
 		<div class="container">
 			<div class="row">
-				<div class="span6 alignright flyLeft">
+				<div class="span8 alignright flyLeft">
 
 				
 <font color="#fff">
@@ -357,9 +364,12 @@
 				<h3> <?=Efiwebsetting::getData("Address2") ?> 
 				</h3></font>
 				</div>
-				<div class="span6 aligncenter flyRight">
-					<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_maps")?>" height= "10000" width="10000" alt="" />
+				<div class="span12 aligncenter flyRight">
+					<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_maps")?>"  alt="" />
 				</div>
+				<!-- <div class="span6 	 aligncenter flyRight">
+					<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("kartu_nama")?>"  alt="" />
+				</div> -->
 			</div>
 		</div>
 	</section>
@@ -385,7 +395,7 @@
 
     <script>
       function initMap() {
-        var uluru = {lat: -6.306721, lng:106.755524};
+        var uluru = {lat: -6.306496, lng:106.756992};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 18,
           center: uluru
