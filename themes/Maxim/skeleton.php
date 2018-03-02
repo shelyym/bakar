@@ -26,9 +26,9 @@
 					<nav class="pull-right nav-collapse collapse">
 						<ul id="menu-main" class="nav">
 							<li><a title="menu" href="#menu">Menu</a></li>
-							<li><a title="services" href="#services">Profile</a></li>
-							<li><a title="works" href="#frenchise">Franchise</a></li>
-							<li><a title="blog" href="#outlet">Outlet</a></li>
+							<li><a title="profile" href="#services">Profile</a></li>
+							<li><a title="franchise" href="#frenchise">Franchise</a></li>
+							<li><a title="outlet" href="#outlet">Outlet</a></li>
 							<!-- <li><a title="event" href="#event">Event</a></li> -->
 							<li><a title="contact"  href="#contact">Contact</a></li>
 						</ul>
@@ -156,7 +156,7 @@
 				</div>
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_minuman")?>"  alt="" />
+						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_minuman4")?>"  alt="" />
 						<h2> Rp. 6000.-</h2>
 						<p>
 							
@@ -169,15 +169,6 @@
 
 			<!-- Four columns -->
 			<div class="row">
-				<div class="span4 animated-fast flyIn">
-					<div class="service-box">
-						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_minuman4")?>"  alt="" />
-						<h2> Rp. 6000.-</h2>
-						<p>
-							
-						</p>
-					</div>
-				</div>
 				<div class="span4 animated flyIn">
 					<div class="service-box">
 						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_minuman5")?>"  alt="" />
@@ -190,7 +181,7 @@
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
 						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_minuman6")?>" alt="" />
-						<h2> Rp. 4000.-</h2>
+						<h2> Rp. 5000.-</h2>
 						<p>
 							
 						</p>
@@ -463,7 +454,7 @@
 						
 					</ul>
 					<p class="copyright">
-						&copy; . All rights reserved.
+						&copy; BakaroGrill . All rights reserved.
 					
 					</p>
 				</div>
@@ -478,7 +469,7 @@
 	<script src="<?=_SPPATH._THEMEPATH;?>/js/jquery.localScroll.js"></script>
 	<script src="<?=_SPPATH._THEMEPATH;?>//js/bootstrap.js"></script>
 	<script src="<?=_SPPATH._THEMEPATH;?>/js/jquery.prettyPhoto.js"></script>
-	<script src="<?=_SPPATH._THEMEPATH;?>/js/isotope.js"></script>
+	<script src="<?=_SPPATH._THEMEPATH;?>/js/isotope.js"></script> 
 	<script src="<?=_SPPATH._THEMEPATH;?>/js/jquery.flexslider.js"></script>
 	<script src="<?=_SPPATH._THEMEPATH;?>/js/inview.js"></script>
 	<script src="<?=_SPPATH._THEMEPATH;?>/js/animate.js"></script>
@@ -495,6 +486,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-114384409-1');
+
 </script>
