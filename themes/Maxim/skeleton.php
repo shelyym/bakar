@@ -45,7 +45,7 @@
 				<img src="<?=_SPPATH._THEMEPATH;?>/img/unnamed.png" height="100" width="500" alt="" />
 			
 			<div class="container">
-
+rehbrgub <p[./.;[p/.'lm >mujm']]
 				<div class="row">
 					<div class="span12">
 						<div id="main-flexslider" class="flexslider">
