@@ -342,15 +342,15 @@ ul#menu-main > li > a:focus {
 
 #header-wrapper {
 	width: 100%;
-	min-height: -100px;
+	min-height: 100px;
 	margin-top: 0px;
 	padding-top:0px;
-	height: 600px;
+	/*height: 600px;*/
 	text-align:center;
 }
 
 
-/*#header-wrapper h1 {
+#header-wrapper h1 {
 	color: #FFFFFF;
 	font-size: 4em;
 	font-weight: 400;
@@ -370,7 +370,7 @@ header .logo {
 	padding-top:-300px;
 	margin-top: 0;
 	margin-bottom: 0;
-}*/
+}
 
 /* --- Header slider --- */
 #header-wrapper.header-slider {
@@ -485,7 +485,9 @@ section.spacer {
 }
 
 .spacer.yellow,.section.yellow  {
-	background:#ffe873;
+	background:#ffcc00;
+	height: 600px;
+	width: auto;
 }
 .spacer.orange,.section.orange {
 	background:#ffa64d;
@@ -499,13 +501,7 @@ section.spacer.bg2 {
 }
 
 
-section.spacer.bg3 {
-	background: #ffcc00;
-	width:100%;
-	height:660px;
-	font-color:#000000;
-	margin:0;	
-}
+
 section.spacer.bg4 {
 	background: url(../img/bg/Polos.png) 50% 0 no-repeat fixed;
 	width:100%;

@@ -8,14 +8,14 @@
 <meta name="description" content="">     <meta name="author" content=""> 
 <link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-carousel.css" >    
 <link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-responsive.css" rel="stylesheet">
-<link href="<?=_SPPATH._THEMEPATH;?>/css/style.css" rel="stylesheet">
+<link href="<?=_SPPATH._THEMEPATH;?>//css/style.css" rel="stylesheet">
 <link href="<?=_SPPATH._THEMEPATH;?>//color/default.css" rel="stylesheet">
 <link rel="<?=_SPPATH;?>/shortcut icon" href="<?=_SPPATH._THEMEPATH;?>/img/bakaro.png">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
 .mySlides {display:none;}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:10}
+.w3-badge {height:13px;width:13px;padding:0}
 </style>
 </head>
 
@@ -67,12 +67,12 @@
   <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
     <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
     <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
 
 
 <script>
-var myIndex = 1;
+var myIndex = 0;
 carousel();
 
 function carousel() {
@@ -249,12 +249,12 @@ function showDivs(n) {
 			<br>
 			<br>
 <!-- kemitraan -->
-	<section id="info" class="section spacer bg3">
+	<section id="info" class="section spacer yellow">
 		<div class="container">
 			<h4>Info Kemitraan</h4>
 			<h4><?=Efiwebsetting::getData("kemitraan");?></h4>
 			<h4><?=Efiwebsetting::getData("no_hp");?></h4>
-			<h4><?=Efiwebsetting::getData("email_2");?></h4>
+			<text align="center"><h2><?=Efiwebsetting::getData("email_2");?></h2></text>
 
 		</div>
 	</section>
