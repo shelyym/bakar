@@ -5,11 +5,18 @@
 
 <head>     <meta charset="utf-8">     <title>bakaro</title>     
 <meta name="viewport" content="width=device-width, initial-scale=1.0">     
-<meta name="description" content="">     <meta name="author" content="">     
+<meta name="description" content="">     <meta name="author" content=""> 
+<link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-carousel.css" >    
 <link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-responsive.css" rel="stylesheet">
-<link href="<?=_SPPATH._THEMEPATH;?>///css/style.css" rel="stylesheet">
+<link href="<?=_SPPATH._THEMEPATH;?>/css/style.css" rel="stylesheet">
 <link href="<?=_SPPATH._THEMEPATH;?>//color/default.css" rel="stylesheet">
 <link rel="<?=_SPPATH;?>/shortcut icon" href="<?=_SPPATH._THEMEPATH;?>/img/bakaro.png">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:10}
+</style>
 </head>
 
 <body>
@@ -26,9 +33,11 @@
 					<nav class="pull-right nav-collapse collapse">
 						<ul id="menu-main" class="nav">
 							<li><a title="menu" href="#menu">Menu</a></li>
-							<li><a title="profile" href="#services">Profile</a></li>
-							<li><a title="franchise" href="#frenchise">Franchise</a></li>
-							<li><a title="outlet" href="#outlet">Outlet</a></li>
+							<li><a title="media" href="#media">Media</a></li>
+							<li><a title="info" href="#info">Info Kemitraan</a></li>
+							<!-- <li><a title="profile" href="#services">Profile</a></li> -->
+							<!-- <li><a title="franchise" href="#frenchise">Franchise</a></li> -->
+							<!-- <li><a title="outlet" href="#outlet">Outlet</a 	></li> -->
 							<!-- <li><a title="event" href="#event">Event</a></li> -->
 							<li><a title="contact"  href="#contact">Contact</a></li>
 						</ul>
@@ -38,45 +47,79 @@
 		</div>
 	</div>
 	<!-- Header area -->
-	<div id="header-wrapper" class="header-slider">
+
+	<!-- <div id="header-wrapper" class="header-slider"> -->
+		<div id="header-wrapper" class="header-slider">
 
 		<header class="clearfix">
-			<div class="logo">
-				<img src="<?=_SPPATH._THEMEPATH;?>/img/unnamed.png" height="100" width="500" alt="" />
 			
-			<div class="container">
-rehbrgub <p[./.;[p/.'lm >mujm']]
-				<div class="row">
-					<div class="span12">
-						<div id="main-flexslider" class="flexslider">
-							<ul class="slides">
-								<li>
-									<p class="home-slide-content">
-										<strong>BAKARO</strong> 
-									</p>
-								</li>
-								
-								<li>
-									<p class="home-slide-content">
-										Grilled <strong>Beef</strong> Bowl
-									</p>
-								</li>
-								<li>
-									<p class="home-slide-content">
-										 <strong>Great Taste</strong>  and <strong> Price</strong> 
-									</p>
-								</li>
-							</ul>
-						</div>
-						<!-- end slider -->
-					</div>
-				</div>
-				</div>
-			</div>
-		</header>
-	</div>
+<!-- <div class="w3-content w3-section" style="width:900px"> -->
+
+  <img class="mySlides" src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_b1")?>" style="width:100%">
+
+  <img class="mySlides" src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_b2")?>" style="width:100%">
+
+
+
+  <!-- 	<div class="logo">
+				// <img  -->
+  
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+
+
+<script>
+var myIndex = 1;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+
+}
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+</header>
+
+</div>
 	<!-- spacer section -->
-	<section class="spacer bg4">
+	<!-- <section class="spacer bg4">
 		<div class="container">
 			<blockquote class="large">
 				<?=Efiwebsetting::getData("Text_blockquote");
@@ -92,7 +135,7 @@ rehbrgub <p[./.;[p/.'lm >mujm']]
 					<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar2")?>" height="800" width="700" alt="" />
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- end spacer section -->
 	<!-- section: team -->
 	<section id="menu" class="section spacer">
@@ -137,30 +180,24 @@ rehbrgub <p[./.;[p/.'lm >mujm']]
 			<!-- Four columns -->
 			<div class="row">
 				<div class="span4 animated-fast flyIn">
-					<div class="service-box">
+					<div class="people">
 						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_minuman1")?>"  alt="" />
-						<h2>   Rp. 6000.-</h2>
-						<p>
-							
-						</p>
+						<h3>   Rp. 6000.-</h3>
+						
 					</div>
 				</div>
 				<div class="span4 animated flyIn">
-					<div class="service-box">
+					<div class="people">
 						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_minuman2")?>"  alt="" />
-						<h2> Rp. 6000.-</h2>
-						<p>
-							
-						</p>
+						<h3> Rp. 6000.-</h3>
+						
 					</div>
 				</div>
 				<div class="span4 animated-fast flyIn">
-					<div class="service-box">
+					<div class="people">
 						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_minuman4")?>"  alt="" />
-						<h2> Rp. 6000.-</h2>
-						<p>
-							
-						</p>
+						<h3> Rp. 6000.-</h3>
+					
 					</div>
 				</div>
 
@@ -170,21 +207,17 @@ rehbrgub <p[./.;[p/.'lm >mujm']]
 			<!-- Four columns -->
 			<div class="row">
 				<div class="span4 animated flyIn">
-					<div class="service-box">
+					<div class="people">
 						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_minuman5")?>"  alt="" />
-						<h2> Rp. 4000.-</h2>
-						<p>
-							
-						</p>
+						<h3> Rp. 4000.-</h3>
+						
 					</div>
 				</div>
 				<div class="span4 animated-fast flyIn">
-					<div class="service-box">
+					<div class="people">
 						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_minuman6")?>" alt="" />
-						<h2> Rp. 5000.-</h2>
-						<p>
-							
-						</p>
+						<h3> Rp. 5000.-</h3>
+						
 					</div>
 				</div>
 				
@@ -192,41 +225,76 @@ rehbrgub <p[./.;[p/.'lm >mujm']]
 			</div>
 		</div>
 	</section>
-			
+
+<!-- Media -->
+	<section id="media" class="section spacer">
+		<div class="container">
+			<h4>Media</h4>
+<text align="center"><h3>A seen on</h3></text>
+<!-- <img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("comming_soon")?>" alt ="" align="center"> -->
+<h4>Coming Soon</h4>
+		</div>
+	</section>
+<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+<!-- kemitraan -->
+	<section id="info" class="section spacer bg3">
+		<div class="container">
+			<h4>Info Kemitraan</h4>
+			<h4><?=Efiwebsetting::getData("kemitraan");?></h4>
+			<h4><?=Efiwebsetting::getData("no_hp");?></h4>
+			<h4><?=Efiwebsetting::getData("email_2");?></h4>
+
+		</div>
+	</section>
+			<br>
+			<br>
+
 	<!-- end section: team -->
 	<!-- section: services -->
-	<section id="services" class="section spacer3">
+	<!-- <section id="services" class="section spacer3">
 		<div class="container">
-			<h4>Sekilas Tentang Bakaro</h4>
+			<h4>Sekilas Tentang Bakaro</h4> -->
 			<!-- Four columns -->
-			<div class="row">
+			<!-- <div class="row">
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("profil_gambar1")?>" alt="" />
+						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("profil_gambar1")?>" alt="" --> <!-- /> -->
 						<!-- <h2>Tahun 2015</h2> -->
 						<!-- <p>
 							<?=Efiwebsetting::getData("History_text1")?>
 
 						</p>  -->
-					</div>
-				</div>
-				<div class="span4 animated flyIn">
-					<div class="service-box">
-						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("profil_gambar2")?>" alt="" />
+					<!-- </div> -->
+				<!-- </div> -->
+				<!-- <div class="span4 animated flyIn"> -->
+					<!-- <div class="service-box"> -->
+						<!-- // <img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("profil_gambar2")?>" alt="" /> -->
 						<!-- <h2>Tahun 2016</h2> -->
 						<!-- <p>
 							<?=Efiwebsetting::getData("History_text2")?>
 						</p> -->
-					</div>
+					<!-- /div>
 				</div>
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("profil_gambar3")?>" alt="" />
+						// <img src="< --><!-- ?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("profil_gambar3")?>" alt="" /> -->
 						<!-- <h2>Tahun 2017</h2> -->
 						<!-- <p>
 							<?=Efiwebsetting::getData("History_text3")?>
 						</p> -->
-					</div>
+					<!-- </div>
 				</div>
 				<p>
 					<p><?=Efiwebsetting::getData("History_text1")?></p>
@@ -237,10 +305,10 @@ rehbrgub <p[./.;[p/.'lm >mujm']]
 </p></p>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- end section: services -->
 	<!-- section: works -->
-	<section id="frenchise" class="section spacer orange">
+	<!-- <section id="frenchise" class="section spacer orange">
 		<div class="container">
 			<h4>Franchise</h4>
 			
@@ -281,8 +349,8 @@ rehbrgub <p[./.;[p/.'lm >mujm']]
 	<li>
 		<?=Efiwebsetting::getData("franchise_text10")?></li>
 </ul>
-</p>
-                </div>
+</p> -->
+                <!-- /div>
 							</div>
 							</div>
 			
@@ -303,7 +371,7 @@ rehbrgub <p[./.;[p/.'lm >mujm']]
 					<?php if(!empty($statusMsg)){ ?>
             <p class="statusMsg <?php echo !empty($msgClass)?$msgClass:''; ?>"><?php echo $statusMsg; ?></p>
         		<?php } ?>
-						<form action="<?=_SPPATH;?>BakaroTambah/FranchiseForm" method="post" role="form" class="contactForm">
+						// <form action="<?=_SPPATH;?>BakaroTambah/FranchiseForm" method="post" role="form" class="contactForm">
 							<div class="row">
 								<div class="span6">
 									<div class="field your-name form-group">
@@ -335,15 +403,15 @@ rehbrgub <p[./.;[p/.'lm >mujm']]
 							</div>
 						</form>
 					</div>
-				</div>
+				</div> -->
 
 				<!-- ./span12 -->
-			</div>
+			<!-- </div>
 		</div>
 		</div>
-	</section>                                                                          
+	</section>  -->                                                                         
 	<!-- spacer section -->
-<section id="outlet" class="spacer bg3">
+<!-- <section id="outlet" class="spacer bg3">
 		<div class="container">
 			<div class="row">
 				<div class="span8 alignright flyLeft">
@@ -361,9 +429,9 @@ rehbrgub <p[./.;[p/.'lm >mujm']]
 				<!-- <div class="span6 	 aligncenter flyRight">
 					<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("kartu_nama")?>"  alt="" />
 				</div> -->
-			</div>
+			<!-- </div>
 		</div>
-	</section>
+	</sectio -->
 	<!-- end spacer section -->
 
 	<!-- section: blog -->
@@ -474,6 +542,8 @@ rehbrgub <p[./.;[p/.'lm >mujm']]
 	<script src="<?=_SPPATH._THEMEPATH;?>/js/inview.js"></script>
 	<script src="<?=_SPPATH._THEMEPATH;?>/js/animate.js"></script>
 	<script src="<?=_SPPATH._THEMEPATH;?>/js/custom.js"></script>
+	<script src="<?=_SPPATH._THEMEPATH;?>/js/jquery-carousel.js"></script>
+<!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
 	<script src="contactform/contactform.js"></script>
 
 </body>

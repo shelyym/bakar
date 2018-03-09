@@ -290,10 +290,10 @@ h2.pagetitle {
 	margin-left: 0;
 	font-weight: 400;
 	text-transform:uppercase;
-}
 .navbar .brand a:hover {
 	text-decoration: none;
  transition: color .15s linear;
+}
  -webkit-transition: color .15s linear;
  -moz-transition: color .15s linear;
 }
@@ -342,14 +342,15 @@ ul#menu-main > li > a:focus {
 
 #header-wrapper {
 	width: 100%;
-	min-height: 500px;
+	min-height: -100px;
 	margin-top: 0px;
 	padding-top:0px;
+	height: 600px;
 	text-align:center;
 }
 
 
-#header-wrapper h1 {
+/*#header-wrapper h1 {
 	color: #FFFFFF;
 	font-size: 4em;
 	font-weight: 400;
@@ -366,10 +367,10 @@ ul#menu-main > li > a:focus {
 
 header .logo {
 	text-align:center;
-	padding-top:-100px;
+	padding-top:-300px;
 	margin-top: 0;
 	margin-bottom: 0;
-}
+}*/
 
 /* --- Header slider --- */
 #header-wrapper.header-slider {
@@ -401,7 +402,6 @@ header .logo {
 	-moz-box-shadow: none;
 	-o-box-shadow: none;
 }
-
 
 
 /* --- Header subscribe form --- */
@@ -498,10 +498,12 @@ section.spacer.bg2 {
 	margin:0;	
 }
 
+
 section.spacer.bg3 {
-	background: url(../img/bg/bg-3.jpg) 50% 0 no-repeat fixed;
+	background: #ffcc00;
 	width:100%;
-	height:500px;
+	height:660px;
+	font-color:#000000;
 	margin:0;	
 }
 section.spacer.bg4 {
@@ -509,6 +511,7 @@ section.spacer.bg4 {
 	width:100%;
 	height:auto;
 	margin:0;	
+	height: 500px;
 }
 
 section.spacer blockquote.large:before {
@@ -1046,7 +1049,7 @@ footer ul.social-networks li i {
 }
 
 footer ul.social-networks li a {
-	color: #5e5e5e;
+	color: #ffcc00;
 	margin: 0 5px;
 }
 
@@ -1060,7 +1063,7 @@ footer ul.social-networks li a:hover {
 }
 
 footer ul.social-networks li i.icon-bgdark {
-	background:#414141;
+	background:#ffcc00;
 	color: #656565;
 }
 
@@ -1641,9 +1644,9 @@ i.icon-white {
 }
     
     /* Smaller screens ----------- */
-@media (max-width : 480px) {
+@media (max-width : 450px) {
 	#header-wrapper {
-		padding-top:80px;
+		padding-top:0px;
 	}
 
 	#team .team-thumb {
