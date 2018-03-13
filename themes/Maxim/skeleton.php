@@ -14,7 +14,7 @@
 .mySlides {display:none;}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
-.btn, .btn-danger, .btn-md{height: 30px;width: 230px;padding:5px;display: inline}
+.btn, .btn-danger, .btn-md{height: 45px;width: 350px;p/*ad*/ding:5px}
 </style>
 </head>
 
@@ -50,18 +50,17 @@
 	<!-- <div id="header-wrapper" class="header-slider"> -->
 		<div id="header-wrapper" class="header-slider">
 		<header class="clearfix">
+
   <img class="mySlides" src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_b1")?>" style="width:100%">
+
   <img class="mySlides" src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_b2")?>" style="width:100%">
+ 	
  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
- <div class="button">	
- <div class="readMore">
- 	<a style="background:; " href="https://api.whatsapp.com/send?phone=6287808558887" class="btn btn-danger btn-md">Order via Whatsup!</a>
+				
     <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
     <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-</div>
-</div>
-</header>
-</div>
+
+
 <script>
 var myIndex = 0;
 carousel();
@@ -89,6 +88,13 @@ function currentDiv(n) {
   showDivs(slideIndex = n);
 }
 </script>
+
+</header>
+<div class="container">
+	
+	<a href="https://api.whatsapp.com/send?phone=6287808558887&text=Halo%20Bakaro%20Saya%20Order%0ANama%20%3A%0AAlamat%20%3A%0AYang%20Dipesan%20%3A%0ATotal%20Dipesan%20%3A" class="btn btn-danger pull-center">Order via Whatsapp!</a>
+</div>
+</div>
 
 	<!-- spacer section -->
 	<!-- <section class="spacer bg4">
@@ -461,7 +467,7 @@ function currentDiv(n) {
           <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
         </div> 		
       </div>
-      <textarea class="span4" id="pesan" name="pesan" placeholder="Comment" rows="5" required></textarea><br>
+      <textarea class="span4" id="pesan" name="pesan" placeholder="Comment" rows="5" required></textarea><br><br>
       <div class="row">
         <div class="col-sm-12 form-group">
           <button class="btn btn-default pull-right" type="submit">Send</button>
