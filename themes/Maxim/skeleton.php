@@ -14,6 +14,7 @@
 .mySlides {display:none;}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
+.btn, .btn-danger, .btn-md{height: 30px;width: 230px;padding:5px;display: inline}
 </style>
 </head>
 
@@ -52,9 +53,13 @@
   <img class="mySlides" src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_b1")?>" style="width:100%">
   <img class="mySlides" src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_b2")?>" style="width:100%">
  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-			<a href="https://api.whatsapp.com/send?phone=6287808558887" class="btn btn-danger btn-md">Chat Us via Whatsapp!</a>			
+ <div class="button">	
+ <div class="readMore">
+ 	<a style="background:; " href="https://api.whatsapp.com/send?phone=6287808558887" class="btn btn-danger btn-md">Order via Whatsup!</a>
     <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
     <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+</div>
+</div>
 </header>
 </div>
 <script>
