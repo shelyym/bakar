@@ -1,6 +1,4 @@
 
-<?php
-?>
 <html>
 
 <head>     <meta charset="utf-8">     <title>bakaro</title>     
@@ -8,10 +6,10 @@
 <meta name="description" content="">     <meta name="author" content=""> 
 <link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-carousel.css" >    
 <link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-responsive.css" rel="stylesheet">
-<link href="<?=_SPPATH._THEMEPATH;?>//css/style.css" rel="stylesheet">
+<link href="<?=_SPPATH._THEMEPATH;?>///css/style.css" rel="stylesheet">
 <link href="<?=_SPPATH._THEMEPATH;?>//color/default.css" rel="stylesheet">
 <link rel="<?=_SPPATH;?>/shortcut icon" href="<?=_SPPATH._THEMEPATH;?>/img/bakaro.png">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="<?=_SPPATH._THEMEPATH;?>///css/w3.css">
 <style>
 .mySlides {display:none;}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
@@ -50,27 +48,15 @@
 
 	<!-- <div id="header-wrapper" class="header-slider"> -->
 		<div id="header-wrapper" class="header-slider">
-
 		<header class="clearfix">
-			
-<!-- <div class="w3-content w3-section" style="width:900px"> -->
-
   <img class="mySlides" src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_b1")?>" style="width:100%">
-
   <img class="mySlides" src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_b2")?>" style="width:100%">
-
-
-
-  <!-- 	<div class="logo">
-				// <img  -->
-  
-  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+ <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+			<a href="https://api.whatsapp.com/send?phone=6287808558887" class="btn btn-danger btn-md">Chat Us via Whatsapp!</a>			
     <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
     <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-
-
+</header>
+</div>
 <script>
 var myIndex = 0;
 carousel();
@@ -88,7 +74,7 @@ function carousel() {
 
 }
 var slideIndex = 1;
-showDivs(slideIndex);
+// showDivs(slideIndex);
 
 function plusDivs(n) {
   showDivs(slideIndex += n);
@@ -97,27 +83,8 @@ function plusDivs(n) {
 function currentDiv(n) {
   showDivs(slideIndex = n);
 }
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-white";
-}
 </script>
 
-</header>
-
-</div>
 	<!-- spacer section -->
 	<!-- <section class="spacer bg4">
 		<div class="container">
@@ -471,7 +438,9 @@ function showDivs(n) {
     </script>
 </div>
     <div class="span4 animated-fast flyIn">
+
       <font color="#000000"><p>Contact us and we'll get back to you within 24 hours.</p>
+      	<a href="https://api.whatsapp.com/send?phone=6287808558887" class="btn btn-danger btn-md">Chat Us via Whatsapp!</a>
       <p><span class="glyphicon glyphicon-map-marker"></span> <?=Efiwebsetting::getData("Address1") ?></p>
       <p><span class="glyphicon glyphicon-map-marker"></span> <?=Efiwebsetting::getData("Address2") ?></p>
       <p><span class="glyphicon glyphicon-phone"></span>  <?=Efiwebsetting::getData("notelp_bakaro") ?></p>
