@@ -30,7 +30,7 @@
 					<!-- Responsive navbar -->
 					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</a>
-						<a class="brand"><a href="<?=_SPPATH;?>"><img src="<?=_SPPATH._THEMEPATH;?>/img/menu/bak.jpeg" height="200" width="200"></a></a>
+						<a class="brand"><a href="<?=_SPPATH;?>"><img src="<?=_SPPATH;?>/uploads/BAKARO-FLAG-PNG.png" width="200" height="200" ></a></a>
 					<!-- navigation -->
 					<nav class="pull-right nav-collapse collapse">
 						<ul id="menu-main" class="nav">
@@ -228,7 +228,9 @@ function currentDiv(n) {
 			  <h2 class="text-center">Media</h2>
 <text align="center"><h3>A seen on</h3></text>
 <!-- <img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("comming_soon")?>" alt ="" align="center"> -->
-<h4>Coming Soon</h4>
+<font color="#000">
+<text align="center"><p style="font-size: 25px">Coming Soon</p></text>
+</font>
 		</div>
 	</section>
 <br>
