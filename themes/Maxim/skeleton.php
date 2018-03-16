@@ -3,7 +3,9 @@
 
 <head>     <meta charset="utf-8">     <title>bakaro</title>     
 <meta name="viewport" content="width=device-width, initial-scale=1.0">     
-<meta name="description" content="">     <meta name="author" content=""> 
+<meta name="description" content="Bakaro, resto spesialis nasi sapi bakar pedas, menyajikan grilled beef bowl dan grilled chicken bowl yang lezat dan nikmat, dibakar dengan flame thrower dan dihidangkan panas dan dengan kepedasan sesuai selera anda. Bakaro buka setiap hari mulai jam 11 siang hingga 9 malam, dan terletak di Jl. Juanda 164, Ciputat ( depan kampus UIN )."> 
+<meta name="keywords" content="Bakaro, resto spesialis nasi sapi bakar pedas, menyajikan grilled beef bowl dan grilled chicken bowl yang lezat dan nikmat, dibakar dengan flame thrower dan dihidangkan panas dan dengan kepedasan sesuai selera anda. Bakaro buka setiap hari mulai jam 11 siang hingga 9 malam, dan terletak di Jl. Juanda 164, Ciputat ( depan kampus UIN ).">
+<meta name="author" content=""> 
 <link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-carousel.css" >    
 <link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-responsive.css" rel="stylesheet">
 <link href="<?=_SPPATH._THEMEPATH;?>///css/style.css" rel="stylesheet">
@@ -14,7 +16,7 @@
 .mySlides {display:none;}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
-.btn-danger, .btn-md{height: 40px;width: 330px}
+.btn-danger, .btn-md{height: 40px;width: 320px}
 
 </style>
 </head>
@@ -24,7 +26,7 @@
 	<div class="navbar-wrapper">
 		<div class="navbar navbar-inverse navbar-fixed-top">
 			<div class="navbar-inner">
-				<div class="container">
+			
 					<!-- Responsive navbar -->
 					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</a>
@@ -44,7 +46,7 @@
 					</nav>
 				</div>
 			</div>
-		</div>
+		
 	</div>
 	<!-- Header area -->
 
@@ -120,13 +122,27 @@ function currentDiv(n) {
 	<!-- section: team -->
 	<section id="menu" class="section spacer">
 		<div class="container">
-			<h4>Daftar Menu</h4>
-			<h2><li>Daftar Makanan</li></h2>
+			<text align="center"><bold><h1>BAKARO</h1></bold></text>
+			<h2>Bakaro Spesialis Nasi Sapi Bakar Pedas</h2>
+
+			<font color="#000"><p>
+				Bakaro, resto spesialis nasi sapi bakar pedas, menyajikan grilled beef bowl dan grilled chicken bowl yang lezat dan nikmat, dibakar dengan flame thrower dan dihidangkan panas dan dengan kepedasan sesuai selera anda. Bakaro buka setiap hari mulai jam 11 siang hingga 9 malam, dan terletak di Jl. Juanda 164, Ciputat ( depan kampus UIN ).
+			</p>
+
+			<p> 
+				Untuk pesanan dalam jumlah banyak, anda dapat order melalui nomor kontak 087808558887
+			</p>
+</font><br>
 			<!-- Four columns -->
+			<h2>Daftar Makanan Bakaro</h2>
+			<font color="#000">
+			<p>
+				Menu-menu di Bakaro disajikan dengan bowl lengkap dengan sendok dan tray yang memisahkan nasi dan lauk, sangat mudah untuk disajikan atau dipesan. Bakaro cocok untuk pesanan halal bihalal, makan siang kantor, acara ultah, hingga acara komunitas maupun arisan.
+			</p></font><br>
 			<div class="row">
 				<div class="span4 animated-fast flyIn">
-					<div class="service-box">
-						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_makanan1")?>" height="400" width="300" alt="" />
+					<div class="people">
+						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_makanan1")?>" height="400" width="300" alt="grilled beef bowl" title="grilled beef bowl"/>
 						<!-- <h2>Tahun 2015</h2> -->
 						<p> 	
 							
@@ -134,8 +150,8 @@ function currentDiv(n) {
 					</div>
 				</div>
 				<div class="span4 animated flyIn">
-					<div class="service-box">
-						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_makanan3")?>" height="400" width="300" alt="" />
+					<div class="people">
+						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_makanan3")?>" height="400" width="300" alt="menu makanan bakaro" title="menu makanan bakaro" />
 						<!-- <h2>Tahun 2016</h2> -->
 						<p>
 							
@@ -144,8 +160,8 @@ function currentDiv(n) {
 				</div>
 				
 					<div class="span4 animated-fast flyIn">
-					<div class="service-box">
-						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_makanan2")?>" height="400" width="300" alt="" />
+					<div class="people">
+						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_makanan2")?>" height="400" width="300" alt="grilled chicken bowl" title="grilled chicken bowl" />
 						<!-- <h2>Tahun 2015</h2> -->
 						<p> 	
 							
@@ -156,9 +172,9 @@ function currentDiv(n) {
 
 			<!-- Four columns -->
 			<!--  -->
-			<h2><li>Daftar Minuman</li></h2>
+			<!-- <h2><li>Daftar Minuman</li></h2> -->
 			<!-- Four columns -->
-			<div class="row">
+			<!-- <div class="row">
 				<div class="span4 animated-fast flyIn">
 					<div class="people">
 						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_minuman1")?>"  alt="" />
@@ -185,7 +201,7 @@ function currentDiv(n) {
 			</div>
 
 			<!-- Four columns -->
-			<div class="row">
+			<!-- <div class="row">
 				<div class="span4 animated flyIn">
 					<div class="people">
 						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_minuman5")?>"  alt="" />
@@ -203,13 +219,13 @@ function currentDiv(n) {
 				
 				
 			</div>
-		</div>
-	</section>
+		</div> -->
+	</section> 
 
 <!-- Media -->
 	<section id="media" class="section spacer">
 		<div class="container">
-			<h4>Media</h4>
+			  <h2 class="text-center">Media</h2>
 <text align="center"><h3>A seen on</h3></text>
 <!-- <img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("comming_soon")?>" alt ="" align="center"> -->
 <h4>Coming Soon</h4>
@@ -231,10 +247,11 @@ function currentDiv(n) {
 <!-- kemitraan -->
 	<section id="info" class="section spacer yellow">
 		<div class="container">
-			<h4>Info Kemitraan</h4>
-			<h4><?=Efiwebsetting::getData("kemitraan");?></h4>
-			<h4><?=Efiwebsetting::getData("no_hp");?></h4>
-			<text align="center"><h2><?=Efiwebsetting::getData("email_2");?></h2></text>
+		  <h2 class="text-center">Info Kemitraan Bakaro</h2>
+			<text align="center"><h2>Hubungi</h2></text>
+			<text align="center"><p><?=Efiwebsetting::getData("kemitraan");?></p></text>
+				<text align="center"><p><a href="tel:628179487924"><?=Efiwebsetting::getData("no_hp");?></a></p></text>
+		
 
 		</div>
 	</section>
@@ -418,8 +435,10 @@ function currentDiv(n) {
 	<section id="contact" class="section contact"> 
 	<div class="container">
 		<div class="row">
-  <h4 class="text-center">CONTACT</h4>
+  <h2 class="text-center">Kontak Restoran Bakaro</h2>
+  <br>
   <div class="span8 animated-fast flyIn">
+  	 <font color="#000000"><p>Contact us and we'll get back to you within 24 hours.</p>
   	<!-- <div class="services box"> -->
   <style>
       #map {
@@ -429,7 +448,7 @@ function currentDiv(n) {
       }
     </style>
   
-    
+   
     <div id="map"></div>
 
     <script>
@@ -452,12 +471,14 @@ function currentDiv(n) {
 </div>
     <div class="span4 animated-fast flyIn">
 
-      <font color="#000000"><p>Contact us and we'll get back to you within 24 hours.</p>
+      
       	<a href="https://api.whatsapp.com/send?phone=6287808558887" class="btn btn-danger btn-md">Chat Us via Whatsapp!</a>
-      <p><span class="glyphicon glyphicon-map-marker"></span> <?=Efiwebsetting::getData("Address1") ?></p>
+      
       <p><span class="glyphicon glyphicon-map-marker"></span> <?=Efiwebsetting::getData("Address2") ?></p>
-      <p><span class="glyphicon glyphicon-phone"></span>  <?=Efiwebsetting::getData("notelp_bakaro") ?></p>
-      <p><span class="glyphicon glyphicon-envelope"></span> <?=Efiwebsetting::getData("email_bakaro") ?></p> </font>
+      <p><span class="glyphicon glyphicon-map-marker"></span> <?=Efiwebsetting::getData("Address1") ?></p>
+      <p><span class="glyphicon glyphicon-phone"></span><a href="tel:+62-878-0855-8887"><?=Efiwebsetting::getData("notelp_bakaro") ?></a></p>
+      <p><a href="mailto:bakarogrill@gmail.com">bakarogrill@gmail.com</a></p>
+      </font>
     </div>
     <div class="span4 animated-fast flyIn">
       <div class="row">
@@ -468,18 +489,17 @@ function currentDiv(n) {
         <div class="span4">
           <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
         </div> 		
-      </div>
+   
+       <div class="span4">
       <textarea class="span4" id="pesan" name="pesan" placeholder="Comment" rows="5" required></textarea><br><br>
       <div class="row">
         <div class="col-sm-8 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
+          <button class="btn btn-warning pull-right" type="submit">Kirim</button>
         </div>
       </div> 
     </div>
 <!-- </form>
- -->
- </div>
-</div>
+
 <!-- </div> -->
 </div>
   </div>
@@ -487,29 +507,24 @@ function currentDiv(n) {
 </section>
 
 
-<!-- Add Google Maps -->
-
-
-   
-	<!-- end spacer section -->
-	<!-- section: contact -->
-	
 	<footer>
 		<div class="container">
-			<div class="row">
-				<div class="span6 offset3">
+			<!-- <div class="row"> -->
+				<!-- <div class="span6 offset3"> -->
 					<ul class="social-networks">
 						<li><a href="https://instagram.com/bakarogrill/"><i class="icon-circled icon-bgdark icon-instagram icon-2x"></i></a></li>
-						<li><a href="https://facebook.com/bakarogrill/"><i class="icon-circled icon-bgdark icon-facebook icon-2x"></i></a></li>
-						
+						<li><a href="https://facebook.com/bakarogrill/"><i class="icon-circled icon-bgdark icon-facebook icon-2x"></i></a></li>	
 					</ul>
 					<p class="copyright">
-						&copy; BakaroGrill . All rights reserved.
-					
+						BakaroGrill
 					</p>
 				</div>
-			</div> 
+			<!-- </div>  -->
 		</div>
+	</footer>
+	</body>
+
+</html>
 		<!-- ./container
 	</footer> -->
 	<a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
@@ -526,11 +541,9 @@ function currentDiv(n) {
 	<script src="<?=_SPPATH._THEMEPATH;?>/js/custom.js"></script>
 	<script src="<?=_SPPATH._THEMEPATH;?>/js/jquery-carousel.js"></script>
 <!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
-	<script src="contactform/contactform.js"></script>
+	<!-- <script src="contactform/contactform.js"></script> -->
 
-</body>
 
-</html>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114384409-1"></script>

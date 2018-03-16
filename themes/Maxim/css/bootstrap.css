@@ -4412,10 +4412,10 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar .brand {
-  display: block;
+  display: inline;
   float: left;
-  padding: 10px 20px 10px;
-  margin-left: -20px;
+  padding: 0px;
+  margin: 0px;
   font-size: 20px;
   font-weight: 200;
   color: #777777;
@@ -4436,6 +4436,8 @@ input[type="submit"].btn.btn-mini {
 .navbar-link {
   color: #777777;
 }
+
+
 
 .navbar-link:hover,
 .navbar-link:focus {

@@ -281,14 +281,14 @@ h2.pagetitle {
 .navbar .brand {
 	margin-left:0;
 	padding: 0;
-	margin-top: 1.05em;
+	margin-top: 0;
 }
 .navbar .brand a {
 	padding: 0;
 	color: #fff;
 	font-size: 1.75em;
 	margin-left: 0;
-	font-weight: 400;
+	/*font-weight: 400;*/
 	text-transform:uppercase;
 .navbar .brand a:hover {
 	text-decoration: none;
@@ -301,7 +301,7 @@ h2.pagetitle {
 	outline: none;
 }
 .navbar-inner {
-	min-height: 4.75em;
+	min-height: 0;
 }
 .navbar-inverse .navbar-inner {
 	background-repeat: repeat;
@@ -311,7 +311,7 @@ h2.pagetitle {
 	overflow:hidden;
 }
 #menu-main {
-	margin-top: 1.125em;
+	margin-top:0s;
 }
 ul#menu-main > li > a {
 	font-weight: 600;
@@ -342,7 +342,7 @@ ul#menu-main > li > a:focus {
 
 #header-wrapper {
 	width: 100%;
-	min-height: 100px;
+	min-height: 0;
 	margin-top: 0px;
 	padding-top:0px;
 	/*height: 600px;*/
@@ -744,7 +744,7 @@ section#services p {
 
 section#services .service-box {
 	text-align: center;
-	padding: 20px;
+	/*padding: 20px;*/
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -1614,9 +1614,9 @@ i.icon-white {
 	 padding-left: 20px;	
 	}
 	
-	.navbar-inner h1.brand {
+	/*.navbar-inner h1.brand {
 		margin-left:20px;
-	}
+	}*/
 	
 	.navbar-inner .btn-navbar {
 		margin:20px 20px 0;
@@ -1627,7 +1627,7 @@ i.icon-white {
 	 padding-left: 20px;
 	}	
 	.navbar-inverse .navbar-inner {
-		padding:0 20px 30px;
+		padding:0px 0px 0px;
 	}
 	
 	.nav-collapse {
