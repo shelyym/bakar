@@ -249,10 +249,11 @@ function currentDiv(n) {
 		<div class="container">
 		  <h2 class="text-center">Info Kemitraan Bakaro</h2>
 			<text align="center"><h2>Hubungi</h2></text>
-			<text align="center"><p style="font-size: 30px; font-color: #000000"><?=Efiwebsetting::getData("kemitraan");?></p></text>
-				<text align="center"><p><a href="tel:628179487924"><?=Efiwebsetting::getData("no_hp");?></a></p></text>
+			<font color="#000">
+			<text align="center"><p style="font-size: 25px"><?=Efiwebsetting::getData("kemitraan");?></p></text>
+				<text align="center"><p style="font-size: 25px"><a href="tel:628179487924"><?=Efiwebsetting::getData("no_hp");?></a></p></text>
 		
-
+</font>
 		</div>
 	</section>
 			<br>
