@@ -14,7 +14,7 @@
 .mySlides {display:none;}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
-.btn, .btn-danger, .btn-md{height: 45px;width: 350px;p/*ad*/ding:5px}
+.btn, .btn-danger, .btn-md{height: 40px;width: 330px}
 </style>
 </head>
 
@@ -49,13 +49,14 @@
 
 	<!-- <div id="header-wrapper" class="header-slider"> -->
 		<div id="header-wrapper" class="header-slider">
-		<header class="clearfix">
 
+		<header class="clearfix">
+				
   <img class="mySlides" src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_b1")?>" style="width:100%">
 
   <img class="mySlides" src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_b2")?>" style="width:100%">
  	
- <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+ <div class="w3-center ow3-cntainer w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
 				
     <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
     <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>

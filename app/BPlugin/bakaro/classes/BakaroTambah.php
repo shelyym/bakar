@@ -37,11 +37,16 @@ class BakaroTambah extends WebService
 	echo"<script>alert('pesan anda telah diterima');window.location.href='"._SPPATH."';</script>";
 
 	$email = new Leapmail();
+
         $subject = "Kontak Kami";
         $pesan = "Nama:" . $contact->nama . "\n" . "Alamat Email:" . $contact->email . "\n" . "Pesan:" . $contact->pesan;
-        $to = "bakarogrill@gmail.com";
-
-        $email->sendEmail($to,$subject,$pesan);
+        $to = "shellymonica1998@gmail.com";
+if($email == 1){
+ $email->sendEmail($to,$subject,$pesan);
+}else{
+	echo"gagal";
+}
+       
 
 	}
 }
