@@ -40,13 +40,10 @@ class BakaroTambah extends WebService
 
         $subject = "Kontak Kami";
         $pesan = "Nama:" . $contact->nama . "\n" . "Alamat Email:" . $contact->email . "\n" . "Pesan:" . $contact->pesan;
-        $to = "shellymonica1998@gmail.com";
-if($email == 1){
+        $to = "bakarogrill@gmail.com";
+
  $email->sendEmail($to,$subject,$pesan);
-}else{
-	echo"gagal";
-}
-       
+
 
 	}
 }

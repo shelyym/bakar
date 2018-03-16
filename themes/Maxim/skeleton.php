@@ -14,7 +14,8 @@
 .mySlides {display:none;}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
-.btn, .btn-danger, .btn-md{height: 40px;width: 330px}
+.btn-danger, .btn-md{height: 40px;width: 330px}
+
 </style>
 </head>
 
@@ -470,7 +471,7 @@ function currentDiv(n) {
       </div>
       <textarea class="span4" id="pesan" name="pesan" placeholder="Comment" rows="5" required></textarea><br><br>
       <div class="row">
-        <div class="col-sm-12 form-group">
+        <div class="col-sm-8 form-group">
           <button class="btn btn-default pull-right" type="submit">Send</button>
         </div>
       </div> 
