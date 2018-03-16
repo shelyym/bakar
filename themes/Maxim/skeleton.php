@@ -1,14 +1,14 @@
 
 <html>
 
-<head>     <meta charset="utf-8">     <title>bakaro</title>     
+<head>     <meta charset="utf-8">     <title>Bakaro Grilled</title>     
 <meta name="viewport" content="width=device-width, initial-scale=1.0">     
 <meta name="description" content="Bakaro, resto spesialis nasi sapi bakar pedas, menyajikan grilled beef bowl dan grilled chicken bowl yang lezat dan nikmat, dibakar dengan flame thrower dan dihidangkan panas dan dengan kepedasan sesuai selera anda. Bakaro buka setiap hari mulai jam 11 siang hingga 9 malam, dan terletak di Jl. Juanda 164, Ciputat ( depan kampus UIN )."> 
 <meta name="keywords" content="Bakaro, resto spesialis nasi sapi bakar pedas, menyajikan grilled beef bowl dan grilled chicken bowl yang lezat dan nikmat, dibakar dengan flame thrower dan dihidangkan panas dan dengan kepedasan sesuai selera anda. Bakaro buka setiap hari mulai jam 11 siang hingga 9 malam, dan terletak di Jl. Juanda 164, Ciputat ( depan kampus UIN ).">
 <meta name="author" content=""> 
 <link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-carousel.css" >    
 <link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-responsive.css" rel="stylesheet">
-<link href="<?=_SPPATH._THEMEPATH;?>///css/style.css" rel="stylesheet">
+<link href="<?=_SPPATH._THEMEPATH;?>//css/style.css" rel="stylesheet">
 <link href="<?=_SPPATH._THEMEPATH;?>//color/default.css" rel="stylesheet">
 <link rel="<?=_SPPATH;?>/shortcut icon" href="<?=_SPPATH._THEMEPATH;?>/img/bakaro.png">
 <link rel="stylesheet" href="<?=_SPPATH._THEMEPATH;?>///css/w3.css">
@@ -249,7 +249,7 @@ function currentDiv(n) {
 		<div class="container">
 		  <h2 class="text-center">Info Kemitraan Bakaro</h2>
 			<text align="center"><h2>Hubungi</h2></text>
-			<text align="center"><p><?=Efiwebsetting::getData("kemitraan");?></p></text>
+			<text align="center"><p style="font-size: 30px; font-color: #000000"><?=Efiwebsetting::getData("kemitraan");?></p></text>
 				<text align="center"><p><a href="tel:628179487924"><?=Efiwebsetting::getData("no_hp");?></a></p></text>
 		
 
