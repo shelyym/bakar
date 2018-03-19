@@ -477,7 +477,7 @@ function currentDiv(n) {
       	<a href="https://api.whatsapp.com/send?phone=6287808558887" class="btn btn-danger btn-md">Chat Us via Whatsapp!</a>
       
       <p><span class="glyphicon glyphicon-map-marker"></span> <?=Efiwebsetting::getData("Address2") ?></p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> <?=Efiwebsetting::getData("Address1") ?></p>
+      
       <p><span class="glyphicon glyphicon-phone"></span><a href="tel:+62-878-0855-8887"><?=Efiwebsetting::getData("notelp_bakaro") ?></a></p>
       <p><a href="mailto:bakarogrill@gmail.com">bakarogrill@gmail.com</a></p>
       </font>
