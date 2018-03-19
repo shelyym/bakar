@@ -1593,7 +1593,7 @@ i.icon-white {
 	 padding-left: 20px;
 	}	
 	.navbar-inverse .navbar-inner {
-		padding:0 0 30px;
+		padding:0 0 0px;
 	}
 	
 	.nav-collapse {
@@ -1619,7 +1619,7 @@ i.icon-white {
 	}*/
 	
 	.navbar-inner .btn-navbar {
-		margin:0px 0px 0;
+		margin:0px 0px 0px;
 	}
 	
 	.container {
@@ -1627,7 +1627,7 @@ i.icon-white {
 	 padding-left: 20px;
 	}	
 	.navbar-inverse .navbar-inner {
-		padding:0 20px 30px;
+		padding:0 0px 0px;
 	}
 	
 	.nav-collapse {

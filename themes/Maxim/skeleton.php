@@ -8,7 +8,7 @@
 <meta name="author" content=""> 
 <link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-carousel.css" >    
 <link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-responsive.css" rel="stylesheet">
-<link href="<?=_SPPATH._THEMEPATH;?>//css/style.css" rel="stylesheet">
+<link href="<?=_SPPATH._THEMEPATH;?>/css/style.css" rel="stylesheet">
 <link href="<?=_SPPATH._THEMEPATH;?>//color/default.css" rel="stylesheet">
 <link rel="<?=_SPPATH;?>/shortcut icon" href="<?=_SPPATH._THEMEPATH;?>/img/bakaro.png">
 <link rel="stylesheet" href="<?=_SPPATH._THEMEPATH;?>///css/w3.css">
@@ -16,7 +16,7 @@
 .mySlides {display:none;}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
-.btn-danger, .btn-md{height: 40px;width: 320px}
+.btn-danger, .btn-md{height: 40px;width: 320px; margin-top: 5px; margin-bottom: 5px}
 
 </style>
 </head>
@@ -254,8 +254,8 @@ function currentDiv(n) {
 		  <h2 class="text-center">Info Kemitraan Bakaro</h2>
 			<text align="center"><h2>Hubungi</h2></text>
 			<font color="#000">
-			<text align="center"><p style="font-size: 25px"><?=Efiwebsetting::getData("kemitraan");?></p></text>
-				<text align="center"><p style="font-size: 25px"><a href="tel:628179487924"><?=Efiwebsetting::getData("no_hp");?></a></p></text>
+			<text align="center"><p style="font-size: 40px">Kurniawan</p></text>
+				<text align="center"><p style="font-size: 40px"><a href="tel:628179487924"><?=Efiwebsetting::getData("no_hp");?></a></p></text>
 		
 </font>
 		</div>
@@ -475,7 +475,7 @@ function currentDiv(n) {
     </script>
 </div>
     <div class="span4 animated-fast flyIn">
-
+<br>
       
       	<a href="https://api.whatsapp.com/send?phone=6287808558887" class="btn btn-danger btn-md">Chat Us via Whatsapp!</a>
       

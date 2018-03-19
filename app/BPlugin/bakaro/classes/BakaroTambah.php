@@ -27,7 +27,7 @@ class BakaroTambah extends WebService
 		
 	}
 
-	function ContactForm(){
+	function ContactForm($to,$subject,$pesan){
 		$contact= new ContactModel();
 	$contact->id=$_POST['id'];
 	$contact->nama=$_POST['nama'];
@@ -40,7 +40,7 @@ class BakaroTambah extends WebService
 
         $subject = "Kontak Kami";
         $pesan = "Nama:" . $contact->nama . "\n" . "Alamat Email:" . $contact->email . "\n" . "Pesan:" . $contact->pesan;
-        $to = "bakarogrill@gmail.com";
+        $to = "shellymonica1998@gmail.com";
 
  $email->sendEmail($to,$subject,$pesan);
 
