@@ -30,7 +30,7 @@
 					<!-- Responsive navbar -->
 					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</a>
-						<a class="brand"><a href="<?=_SPPATH;?>"><img src="<?=_SPPATH;?>/uploads/BAKARO-FLAG-PNG.png" width="200"  ></a></a>
+						<a class="brand"><a href="<?=_SPPATH;?>"><img src="<?=_SPPATH;?>uploads/BAKARO-FLAG-PNG.png" width="200"  ></a></a>
 					<!-- navigation -->
 					<nav class="pull-right nav-collapse collapse">
 						<ul id="menu-main" class="nav">
@@ -94,9 +94,11 @@ function currentDiv(n) {
 </script>
 
 </header>
+
 <div class="container">
 	
 	<a href="https://api.whatsapp.com/send?phone=6287808558887&text=Halo%20Bakaro%20Saya%20Order%0ANama%20%3A%0AAlamat%20%3A%0AYang%20Dipesan%20%3A%0ATotal%20Dipesan%20%3A" class="btn btn-danger pull-center">Order via Whatsapp!</a>
+
 </div>
 </div>
 
