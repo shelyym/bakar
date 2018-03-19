@@ -1,10 +1,10 @@
 
 <html>
 
-<head>     <meta charset="utf-8">     <title>Bakaro Grilled</title>     
+<head>     <meta charset="utf-8">     <title>BAKARO | Nasi Sapi Bakar | Kuliner Halal | Selera Pedas Bervariasi</title>     
 <meta name="viewport" content="width=device-width, initial-scale=1.0">     
-<meta name="description" content="Bakaro, resto spesialis nasi sapi bakar pedas, menyajikan grilled beef bowl dan grilled chicken bowl yang lezat dan nikmat, dibakar dengan flame thrower dan dihidangkan panas dan dengan kepedasan sesuai selera anda. Bakaro buka setiap hari mulai jam 11 siang hingga 9 malam, dan terletak di Jl. Juanda 164, Ciputat ( depan kampus UIN )."> 
-<meta name="keywords" content="Bakaro, resto spesialis nasi sapi bakar pedas, menyajikan grilled beef bowl dan grilled chicken bowl yang lezat dan nikmat, dibakar dengan flame thrower dan dihidangkan panas dan dengan kepedasan sesuai selera anda. Bakaro buka setiap hari mulai jam 11 siang hingga 9 malam, dan terletak di Jl. Juanda 164, Ciputat ( depan kampus UIN ).">
+<meta name="description" content="BAKARO, pelopor nasi sapi bakar dengan variasi pedas, menyediakan makanan halal Grilled Beef Bowl & Chicken Bowl yang dibakar seperti yakiniku untuk selera kuliner anda."> 
+<meta name="keywords" content="bakaro, grill, beef, chicken, sapi, ayam, halal, flamethrower, kuliner, makan">
 <meta name="author" content=""> 
 <link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-carousel.css" >    
 <link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-responsive.css" rel="stylesheet">
@@ -124,23 +124,16 @@ function currentDiv(n) {
 	<!-- section: team -->
 	<section id="menu" class="section spacer">
 		<div class="container">
-			<text align="center"><bold><h1>BAKARO</h1></bold></text>
-			<h2>Bakaro Spesialis Nasi Sapi Bakar Pedas</h2>
+			<text align="center"><bold><h1><?=Efiwebsetting::getData("h1_text");?></h1></bold></text><br>
+			<h2><?=Efiwebsetting::getData("h2_text");?></h2>
 
 			<font color="#000"><p>
-				Bakaro, resto spesialis nasi sapi bakar pedas, menyajikan grilled beef bowl dan grilled chicken bowl yang lezat dan nikmat, dibakar dengan flame thrower dan dihidangkan panas dan dengan kepedasan sesuai selera anda. Bakaro buka setiap hari mulai jam 11 siang hingga 9 malam, dan terletak di Jl. Juanda 164, Ciputat ( depan kampus UIN ).
+				<?=Efiwebsetting::getData("text1");?>
 			</p>
 
-			<p> 
-				Untuk pesanan dalam jumlah banyak, anda dapat order melalui nomor kontak 087808558887
-			</p>
+			
 </font><br>
 			<!-- Four columns -->
-			<h2>Daftar Makanan Bakaro</h2>
-			<font color="#000">
-			<p>
-				Menu-menu di Bakaro disajikan dengan bowl lengkap dengan sendok dan tray yang memisahkan nasi dan lauk, sangat mudah untuk disajikan atau dipesan. Bakaro cocok untuk pesanan halal bihalal, makan siang kantor, acara ultah, hingga acara komunitas maupun arisan.
-			</p></font><br>
 			<div class="row">
 				<div class="span4 animated-fast flyIn">
 					<div class="people">
@@ -171,6 +164,12 @@ function currentDiv(n) {
 					</div>
 				</div>
 			</div>
+			<h2>Daftar Makanan Bakaro</h2>
+			<font color="#000">
+			<p>
+				<?=Efiwebsetting::getData("text2");?>
+			</p></font><br>
+			
 
 			<!-- Four columns -->
 			<!--  -->
@@ -227,11 +226,10 @@ function currentDiv(n) {
 <!-- Media -->
 	<section id="media" class="section spacer">
 		<div class="container">
-			  <h2 class="text-center">Media</h2>
-<text align="center"><h3>A seen on</h3></text>
-<!-- <img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("comming_soon")?>" alt ="" align="center"> -->
-<font color="#000">
-<text align="center"><p style="font-size: 25px">Coming Soon</p></text>
+			  <h2 class="text-center">Bakaro - as seen on Media</h2>
+			  <font color="#000">
+<text align="center"><p>This article is coming soon</p></text>
+
 </font>
 		</div>
 	</section>
@@ -251,11 +249,10 @@ function currentDiv(n) {
 <!-- kemitraan -->
 	<section id="info" class="section spacer yellow">
 		<div class="container">
-		  <h2 class="text-center">Info Kemitraan Bakaro</h2>
-			<text align="center"><h2>Hubungi</h2></text>
+		  <h2 class="text-center">Peluang Usaha dan Kemitraan dengan Bakaro</h2>
 			<font color="#000">
-			<text align="center"><p style="font-size: 40px">Kurniawan</p></text>
-				<text align="center"><p style="font-size: 40px"><a href="tel:628179487924"><?=Efiwebsetting::getData("no_hp");?></a></p></text>
+			<text align="center"><p style="font-size: 30px"><?=Efiwebsetting::getData("info_kemitraan");?></p></text>
+				
 		
 </font>
 		</div>
@@ -440,10 +437,10 @@ function currentDiv(n) {
 	<section id="contact" class="section contact"> 
 	<div class="container">
 		<div class="row">
-  <h2 class="text-center">Kontak Restoran Bakaro</h2>
+  <h2 class="text-center">Lokasi Restoran Bakaro</h2>
   <br>
   <div class="span8 animated-fast flyIn">
-  	 <font color="#000000"><p>Contact us and we'll get back to you within 24 hours.</p>
+  	 <font color="#000000"><p><?=Efiwebsetting::getData("kontak");?></p><br>
   	<!-- <div class="services box"> -->
   <style>
       #map {
