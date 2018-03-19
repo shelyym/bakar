@@ -30,7 +30,7 @@
 					<!-- Responsive navbar -->
 					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</a>
-						<a class="brand"><a href="<?=_SPPATH;?>"><img src="<?=_SPPATH;?>/uploads/BAKARO-FLAG-PNG.png" width="200" height="200" ></a></a>
+						<a class="brand"><a href="<?=_SPPATH;?>"><img src="<?=_SPPATH;?>/uploads/BAKARO-FLAG-PNG.png" width="200"  ></a></a>
 					<!-- navigation -->
 					<nav class="pull-right nav-collapse collapse">
 						<ul id="menu-main" class="nav">
