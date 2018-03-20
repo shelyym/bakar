@@ -3,8 +3,8 @@
 
 <head>     <meta charset="utf-8">     <title>BAKARO | Nasi Sapi Bakar | Kuliner Halal | Selera Pedas Bervariasi</title>     
 <meta name="viewport" content="width=device-width, initial-scale=1.0">     
-<meta name="description" content="BAKARO, pelopor nasi sapi bakar dengan variasi pedas, menyediakan makanan halal Grilled Beef Bowl & Chicken Bowl yang dibakar seperti yakiniku untuk selera kuliner anda."> 
-<meta name="keywords" content="bakaro, grill, beef, chicken, sapi, ayam, halal, flamethrower, kuliner, makan">
+<meta name="description" content="<?=Efiwebsetting::getData("seo_description");?>"> 
+<meta name="keywords" content="<?=Efiwebsetting::getData("seo_keyword");?>">
 <meta name="author" content=""> 
 <link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-carousel.css" >    
 <link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-responsive.css" rel="stylesheet">
