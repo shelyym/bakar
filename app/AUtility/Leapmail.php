@@ -35,7 +35,7 @@ class Leapmail {
         return $mj->sendEmail($params);
     }
 
-    function sendEmailWithInlineAttachments ()
+    function  sendEmailInlineAttachments   ()
     {
         $mj = new Mailjet();
         $params = array (
