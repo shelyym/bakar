@@ -131,9 +131,9 @@ a.scrollup i:hover {
 
 input[type=text], input[type=submit], textarea {
 	width: 100%;
-	padding: 0em;
-	font-size: 0em;
-	margin-bottom: 1em;
+	padding: 0.5em;
+	font-size: 1em;
+	margin-bottom: 0.75em;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
