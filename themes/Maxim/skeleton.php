@@ -8,14 +8,15 @@
 <meta name="author" content=""> 
 <link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-carousel.css" >    
 <link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-responsive.css" rel="stylesheet">
-<link href="<?=_SPPATH._THEMEPATH;?>/css/style.css" rel="stylesheet">
+<link href="<?=_SPPATH._THEMEPATH;?>///css/style.css" rel="stylesheet">
+
 <link href="<?=_SPPATH._THEMEPATH;?>//color/default.css" rel="stylesheet">
 <link rel="<?=_SPPATH;?>/shortcut icon" href="<?=_SPPATH._THEMEPATH;?>/img/bakaro.png">
 <link rel="stylesheet" href="<?=_SPPATH._THEMEPATH;?>///css/w3.css">
 <style>
 .mySlides {display:none;}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
+.w3-badge {height:13%;width:13%;padding-left:50%;padding-right: 50%		}
 .btn-danger, .btn-md{height: 40px;width: 320px; margin-top: 5px; margin-bottom: 5px}
 
 </style>
@@ -34,14 +35,14 @@
 					<!-- navigation -->
 					<nav class="pull-right nav-collapse collapse">
 						<ul id="menu-main" class="nav">
-							<li><a title="menu" href="#menu">Menu</a></li>
+							<li><a title="Tentang Bakaro" href="#menu">Tentang Bakaro</a></li>
 							<li><a title="media" href="#media">Media</a></li>
-							<li><a title="info" href="#info">Info Kemitraan</a></li>
+							<li><a title="Peluang Usaha dan Kemitraan" href="#info">Peluang Usaha dan Kemitraan</a></li>
 							<!-- <li><a title="profile" href="#services">Profile</a></li> -->
 							<!-- <li><a title="franchise" href="#frenchise">Franchise</a></li> -->
 							<!-- <li><a title="outlet" href="#outlet">Outlet</a 	></li> -->
 							<!-- <li><a title="event" href="#event">Event</a></li> -->
-							<li><a title="contact"  href="#contact">Contact</a></li>
+							<li><a title="lokasi"  href="#contact">Lokasi</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -138,8 +139,7 @@ function currentDiv(n) {
 				<div class="span4 animated-fast flyIn">
 					<div class="people">
 						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_makanan1")?>" height="400" width="300" alt="grilled beef bowl" title="grilled beef bowl"/>
-						<!-- <h2>Tahun 2015</h2> -->
-						<p> 	
+					<p> 	
 							
 						</p>
 					</div>
@@ -251,8 +251,8 @@ function currentDiv(n) {
 		<div class="container">
 		  <h2 class="text-center">Peluang Usaha dan Kemitraan dengan Bakaro</h2>
 			<font color="#000">
-			<text align="center"><p style="font-size: 30px"><?=Efiwebsetting::getData("info_kemitraan");?></p></text>
-				
+			<text align="center"><p style="font-size: 24px"><?=Efiwebsetting::getData("info_kemitraan");?></p></text>
+<text align="center"><p style="font-size: 30px"><?=Efiwebsetting::getData("nomor_pwawan");?></p></text>				
 		
 </font>
 		</div>
@@ -486,16 +486,16 @@ function currentDiv(n) {
       <div class="row">
       	<form action="<?=_SPPATH;?>BakaroTambah/ContactForm" method="post" >
         <div class="span4">
-          <input class="form-control" id="name" name="nama" placeholder="Name" type="text" required>
+          <input class="form-control" id="name" name="nama" placeholder="Nama Anda" type="text" required>
         </div>
         <div class="span4">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          <input class="form-control" id="email" name="email" placeholder="Alamat Email Anda" type="email" required>
         </div> 		
    
        <div class="span4">
-      <textarea class="span4" id="pesan" name="pesan" placeholder="Comment" rows="5" required></textarea><br><br>
+      <textarea class="span4" id="pesan" name="pesan" placeholder="Pesan" rows="5" required></textarea><br><br>
       <div class="row">
-        <div class="col-sm-8 form-group">
+        <div class="col-sm-12 form-group">
           <button class="btn btn-warning pull-right" type="submit">Kirim</button>
         </div>
       </div> 
