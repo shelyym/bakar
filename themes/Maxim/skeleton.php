@@ -251,7 +251,7 @@ function currentDiv(n) {
 		<div class="container">
 		  <h2 class="text-center">Peluang Usaha dan Kemitraan dengan Bakaro</h2>
 			<font color="#000">
-			<text align="center"><p style="font-size: 24px"><?=Efiwebsetting::getData("info_kemitraan");?></p></text>
+			<text align="center"><p style="font-size: 20px"><?=Efiwebsetting::getData("info_kemitraan");?></p></text>
 <text align="center"><p style="font-size: 30px"><?=Efiwebsetting::getData("nomor_pwawan");?></p></text>				
 		
 </font>
