@@ -496,7 +496,7 @@ function currentDiv(n) {
       <textarea class="span4" id="pesan" name="pesan" placeholder="Pesan" rows="5" required></textarea><br><br>
       <div class="row">
         <div class="col-sm-12 form-group">
-          <button class="btn btn-warning pull-right" type="submit">Kirim</button>
+          <button class="btn btn-success pull-right" type="submit">Kirim</button>
         </div>
       </div> 
     </div>
