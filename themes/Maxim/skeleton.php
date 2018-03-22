@@ -8,7 +8,7 @@
 <meta name="author" content=""> 
 <link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-carousel.css" >    
 <link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-responsive.css" rel="stylesheet">
-<link href="<?=_SPPATH._THEMEPATH;?>//css/style.css" rel="stylesheet">
+<link href="<?=_SPPATH._THEMEPATH;?>///css/style.css" rel="stylesheet">
 
 <link href="<?=_SPPATH._THEMEPATH;?>//color/default.css" rel="stylesheet">
 <link rel="<?=_SPPATH;?>/shortcut icon" href="<?=_SPPATH._THEMEPATH;?>/img/bakaro.png">

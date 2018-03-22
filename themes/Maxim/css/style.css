@@ -129,7 +129,7 @@ a.scrollup i:hover {
 
 /*---------- forms ----------*/
 
-input[type=text], input[type=submit], textarea {
+input[type=text], input[type=submit], input[type=email], textarea {
 	width: 100%;
 	padding: 0.5em;
 	font-size: 1em;
@@ -138,6 +138,7 @@ input[type=text], input[type=submit], textarea {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
+
 input, button, select, textarea {
 	font-family:'Open Sans', Arial, sans-serif;
 }
