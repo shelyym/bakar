@@ -7,7 +7,7 @@
 <meta name="keywords" content="<?=Efiwebsetting::getData("seo_keyword");?>">
 <meta name="author" content=""> 
 <link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-carousel.css" >    
-<link href="<?=_SPPATH._THEMEPATH;?>////css/bootstrap-responsive.css" rel="stylesheet">
+<link href="<?=_SPPATH._THEMEPATH;?>//css/bootstrap-responsive.css" rel="stylesheet">
 <link href="<?=_SPPATH._THEMEPATH;?>///css/style.css" rel="stylesheet">
 <link href="<?=_SPPATH._THEMEPATH;?>//color/default.css" rel="stylesheet">
 <link rel="<?=_SPPATH;?>/shortcut icon" href="<?=_SPPATH._THEMEPATH;?>/img/bakaro.png">
@@ -17,7 +17,10 @@
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13%;width:13%;padding-left:50%;padding-right: 50%		}
 .btn-danger, .btn-md{height: 40px;width: 320px; margin-top: 5px; margin-bottom: 5px}
-.textarea, .span4,.uneditable-input.span4 {width: 370px}
+.textarea.span4,
+  .uneditable-input.span4 {
+    width: 370px;
+  }
 </style>
 </head>
 
