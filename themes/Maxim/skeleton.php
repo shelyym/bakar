@@ -16,13 +16,16 @@
 .mySlides {display:none;}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13%;width:13%;padding-left:50%;padding-right: 50%		}
-.btn-danger, .btn-md{height: 40px;width: 320px; margin-top: 5px; margin-bottom: 5px}
-.textarea.span4,
-  .uneditable-input.span4 {
-    width: 370px;
-  }
+.btn-danger, .btn-md{height: 40px;w nidth: 320px; margin-top: 5px; margin-bottom: 5px}
+img.tengah {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 </style>
 </head>
+
 
 <body>
 	<!-- navbar -->
@@ -38,6 +41,7 @@
 					<nav class="pull-right nav-collapse collapse">
 						<ul id="menu-main" class="nav">
 							<li><a title="Tentang Bakaro" href="#menu">Tentang Bakaro</a></li>
+							<!-- <li><a title="Artikel Tentang Bakaro" href="#artikel">Artikel Tentang Bakaro</a></li> -->
 							<li><a title="media" href="#media">Media</a></li>
 							<li><a title="Peluang Usaha dan Kemitraan" href="#info">Peluang Usaha dan Kemitraan</a></li>
 							<!-- <li><a title="profile" href="#services">Profile</a></li> -->
@@ -225,14 +229,72 @@ function currentDiv(n) {
 		</div> -->
 	</section> 
 
+<!-- 	<section id="artikel" class="section spacer yellow">
+		<div class="container">
+			<h2 class="text-center">Artikel Tentang Bakaro</h2>
+			<br>
+			<div class="row">
+				<div class="span6 animated-fast flyIn">
+					<div class="service-box">
+						<a href="https://www.viva.co.id/gaya-hidup/kuliner/1020785-inovasi-baru-kuliner-lewat-flame-thrower"><img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_artikel1")?>" alt="" /></a>
+						<h2>Inovasi Baru Kuliner Lewat Flame Thrower</h2>
+						<p>
+							<? echo substr(Efiwebsetting::getData("isi_artikel1"), 0, 200); ?> <br>
+							<a href="https://www.viva.co.id/gaya-hidup/kuliner/1020785-inovasi-baru-kuliner-lewat-flame-thrower">baca selengkapnya..</a>
+						</p>
+
+					</div>
+				</div>
+				<div class="span6 animated flyIn">
+					<div class="service-box">
+						<a href="http://m.tribunnews.com/travel/2018/03/27/inovasi-restoran-cepat-saji-ini-daging-dibakar-menggunakan-pelontar-api?page=3"><img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_artikel2")?>" alt="" /></a>
+						<h2>Inovasi Restoran Cepat Saji Ini, Daging Dibakar Menggunakan Pelontar Api</h2>
+						<p>
+							<? echo substr(Efiwebsetting::getData("isi_artikel2"), 0, 200); ?><br>
+							<a href="http://m.tribunnews.com/travel/2018/03/27/inovasi-restoran-cepat-saji-ini-daging-dibakar-menggunakan-pelontar-api?page=3">baca selengkapnya..</a>
+						</p>
+					</div>
+				</div>
+			</div>
+	</section> -->
+
 <!-- Media -->
 	<section id="media" class="section spacer">
 		<div class="container">
 			  <h2 class="text-center">Bakaro - as seen on Media</h2>
-			  <font color="#000">
-<text align="center"><p>This article is coming soon</p></text>
 
-</font>
+<br>
+<br>
+<div class="row">
+				<div class="span4 animated-fast flyIn">
+					<div class="people">
+						<a target="blank" href="http://m.tribunnews.com/travel/2018/03/27/inovasi-restoran-cepat-saji-ini-daging-dibakar-menggunakan-pelontar-api?page=3"><img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_media1")?>" height="100" width="200" alt="grilled beef bowl" title="bakaro di tribunnews"/></a>
+					<p> 	
+							
+						</p>
+					</div>
+				</div>
+				<br>
+				<div class="span4 animated flyIn">
+					<div class="people">
+						<a target="blank" href="https://www.viva.co.id/gaya-hidup/kuliner/1020785-inovasi-baru-kuliner-lewat-flame-thrower"><img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_media2")?>" height="100" width="200" alt="menu makanan bakaro" title="bakaro di viva.co.id" /></a>
+						<!-- <h2>Tahun 2016</h2> -->
+						<p>
+							
+						</p>
+					</div>
+				</div>
+				<br>
+					<div class="span4 animated-fast flyIn">
+					<div class="people">
+						<a target="blank" href="https://www.kaskus.co.id/thread/5aba17a8d9d770103b8b458a/inovasi-restoran-cepat-saji-ini-daging-dibakar-menggunakan-pelontar-api"><img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_media3")?>" height="100" width="200" alt="grilled chicken bowl" title="Bakaro di kaskus" /></a>
+						<!-- <h2>Tahun 2015</h2> -->
+						<p> 	
+							
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 <br>
@@ -240,13 +302,7 @@ function currentDiv(n) {
 			<br>
 			<br>
 			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
+			
 			<br>
 <!-- kemitraan -->
 	<section id="info" class="section spacer yellow">
