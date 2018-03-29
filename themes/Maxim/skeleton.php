@@ -262,32 +262,29 @@ function currentDiv(n) {
 	<section id="media" class="section spacer">
 		<div class="container">
 			  <h2 class="text-center">Bakaro - as seen on Media</h2>
-
-<br>
-<br>
+			  <br>
 <div class="row">
 				<div class="span4 animated-fast flyIn">
 					<div class="people">
-						<a target="blank" href="http://m.tribunnews.com/travel/2018/03/27/inovasi-restoran-cepat-saji-ini-daging-dibakar-menggunakan-pelontar-api?page=3"><img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_media1")?>" height="100" width="200" alt="grilled beef bowl" title="bakaro di tribunnews"/></a>
+						<a target="blank" href="http://m.tribunnews.com/travel/2018/03/27/inovasi-restoran-cepat-saji-ini-daging-dibakar-menggunakan-pelontar-api?page=3"><img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_media1")?>" height="100" width="200" alt="grilled beef bowl" title="grilled beef bowl"/></a>
 					<p> 	
 							
 						</p>
 					</div>
 				</div>
-				<br>
 				<div class="span4 animated flyIn">
 					<div class="people">
-						<a target="blank" href="https://www.viva.co.id/gaya-hidup/kuliner/1020785-inovasi-baru-kuliner-lewat-flame-thrower"><img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_media2")?>" height="100" width="200" alt="menu makanan bakaro" title="bakaro di viva.co.id" /></a>
+						<a target="blank" href="https://www.google.co.id/amp/s/m.viva.co.id/amp/gaya-hidup/kuliner/1020785-inovasi-baru-kuliner-lewat-flame-thrower"><img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_media2")?>" height="100" width="200" alt="menu makanan bakaro" title="menu makanan bakaro" /></a>
 						<!-- <h2>Tahun 2016</h2> -->
 						<p>
 							
 						</p>
 					</div>
 				</div>
-				<br>
+				
 					<div class="span4 animated-fast flyIn">
 					<div class="people">
-						<a target="blank" href="https://www.kaskus.co.id/thread/5aba17a8d9d770103b8b458a/inovasi-restoran-cepat-saji-ini-daging-dibakar-menggunakan-pelontar-api"><img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_media3")?>" height="100" width="200" alt="grilled chicken bowl" title="Bakaro di kaskus" /></a>
+						<a target="blank" href="https://www.google.co.id/amp/s/amp.kaskus.co.id/thread/5aba17a8d9d770103b8b458a/inovasi-restoran-cepat-saji-ini-daging-dibakar-menggunakan-pelontar-api"><img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("gambar_media3")?>" height="100" width="200" alt="grilled chicken bowl" title="grilled chicken bowl" /></a>
 						<!-- <h2>Tahun 2015</h2> -->
 						<p> 	
 							
