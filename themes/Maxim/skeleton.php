@@ -142,7 +142,7 @@ function currentDiv(n) {
 </font><br>
 			<!-- Four columns -->
 			<div class="row">
-				<div class="span4 animated-fast flyIn">
+				<div class="span6 animated-fast flyIn">
 					<div class="people">
 						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_makanan1")?>" height="400" width="300" alt="grilled beef bowl" title="grilled beef bowl"/>
 					<p> 	
@@ -150,7 +150,7 @@ function currentDiv(n) {
 						</p>
 					</div>
 				</div>
-				<div class="span4 animated flyIn">
+				<div class="span6 animated flyIn">
 					<div class="people">
 						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_makanan3")?>" height="400" width="300" alt="menu makanan bakaro" title="menu makanan bakaro" />
 						<!-- <h2>Tahun 2016</h2> -->
@@ -160,15 +160,15 @@ function currentDiv(n) {
 					</div>
 				</div>
 				
-					<div class="span4 animated-fast flyIn">
+					<!-- <div class="span4 animated-fast flyIn">
 					<div class="people">
 						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_makanan2")?>" height="400" width="300" alt="grilled chicken bowl" title="grilled chicken bowl" />
 						<!-- <h2>Tahun 2015</h2> -->
-						<p> 	
+						<!-- <p> 	
 							
-						</p>
-					</div>
-				</div>
+						</p> -->
+					<!-- </div> -->
+				<!-- </div> --> -->
 			</div>
 			<h2>Daftar Makanan Bakaro</h2>
 			<font color="#000">
