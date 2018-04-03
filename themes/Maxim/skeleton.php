@@ -292,6 +292,24 @@ function currentDiv(n) {
 					</div>
 				</div>
 			</div>
+			<div class="row">
+				<div class="span6 animated-fast flyIn">
+					<div class="people">
+						<a target="blank" href="http://www.liputan6.com/lifestyle/read/3421722/restoran-ini-sajikan-menu-daging-dengan-cara-unik?utm_source=App&utm_medium=WhatsApp&utm_campaign=Share"><img src="<?=_SPPATH;?>uploads/liputan-6-logo.png" height="100" width="200" alt="grilled beef bowl" title="grilled beef bowl"/></a>
+					<p> 	
+							
+						</p>
+					</div>
+				</div>
+				<div class="span6 animated flyIn">
+					<div class="people">
+						<a target="blank" href="https://food.detik.com/resto-dan-kafe/d-3950888/bakaro-grill--gurih-renyah-grilled-beef-bowl-yang-dibakar-pakai-semburan-api"><img src="<?=_SPPATH;?>uploads/35_237_1477452788_39497694_f.png" height="100" width="200" alt="menu makanan bakaro" title="menu makanan bakaro" /></a>
+						<!-- <h2>Tahun 2016</h2> -->
+						<p>
+							
+						</p>
+					</div>
+				</div>
 		</div>
 	</section>
 <br>
