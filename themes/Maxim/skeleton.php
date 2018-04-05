@@ -142,7 +142,7 @@ function currentDiv(n) {
 </font><br>
 			<!-- Four columns -->
 			<div class="row">
-				<div class="span6 animated-fast flyIn">
+				<div class="span4 animated-fast flyIn">
 					<div class="people">
 						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_makanan1")?>" height="400" width="300" alt="grilled beef bowl" title="grilled beef bowl"/>
 					<p> 	
@@ -150,7 +150,7 @@ function currentDiv(n) {
 						</p>
 					</div>
 				</div>
-				<div class="span6 animated flyIn">
+				<div class="span4 animated flyIn">
 					<div class="people">
 						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_makanan3")?>" height="400" width="300" alt="menu makanan bakaro" title="menu makanan bakaro" />
 						<!-- <h2>Tahun 2016</h2> -->
@@ -160,15 +160,15 @@ function currentDiv(n) {
 					</div>
 				</div>
 				
-					<!-- <div class="span4 animated-fast flyIn">
+					<div class="span4 animated-fast flyIn">
 					<div class="people">
 						<img src="<?=_SPPATH;?>uploads/<?=Efiwebsetting::getData("menu_makanan2")?>" height="400" width="300" alt="grilled chicken bowl" title="grilled chicken bowl" />
 						<!-- <h2>Tahun 2015</h2> -->
-						<!-- <p> 	
+						<p> 	
 							
-						</p> -->
-					<!-- </div> -->
-				<!-- </div> --> -->
+						</p>
+					</div>
+				</div>
 			</div>
 			<h2>Daftar Makanan Bakaro</h2>
 			<font color="#000">
@@ -281,7 +281,7 @@ function currentDiv(n) {
 						</p>
 					</div>
 				</div>
-				
+				<div class="row">
 					<div class="span4 animated-fast flyIn">
 					<div class="people">
 						<a target="blank" href="https://www.google.co.id/amp/s/amp.kaskus.co.id/thread/5aba17a8d9d770103b8b458a/inovasi-restoran-cepat-saji-ini-daging-dibakar-menggunakan-pelontar-api"><img src="<?=_SPPATH;?>uploads/kaskus.png" height="100" width="200" alt="grilled chicken bowl" title="grilled chicken bowl" /></a>
@@ -292,8 +292,17 @@ function currentDiv(n) {
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="span6 animated-fast flyIn">
+			<div class="span4 animated flyIn">
+					<div class="people">
+						<a target="blank" href="https://20.detik.com/e-flash/20180404-180404058/gurih-renyah-daging-sapi-dibakar-pakai-semburan-api"><img src="<?=_SPPATH;?>uploads/viva copy.png" height="100" width="200" alt="menu makanan bakaro" height="100" width="200" title="menu makanan bakaro" /></a>
+						<!-- <h2>Tahun 2016</h2> -->
+						<p>
+							
+						</p>
+					</div>
+				</div>
+			
+				<div class="span4 animated-fast flyIn">
 					<div class="people">
 						<a target="blank" href="http://www.liputan6.com/lifestyle/read/3421722/restoran-ini-sajikan-menu-daging-dengan-cara-unik?utm_source=App&utm_medium=WhatsApp&utm_campaign=Share"><img src="<?=_SPPATH;?>uploads/liputan-6-logo copy.PNG" height="100" width="200" alt="grilled beef bowl" title="grilled beef bowl"/></a>
 					<p> 	
@@ -301,7 +310,7 @@ function currentDiv(n) {
 						</p>
 					</div>
 				</div>
-				<div class="span6 animated flyIn">
+				<div class="span4 animated flyIn">
 					<div class="people">
 						<a target="blank" href="https://food.detik.com/resto-dan-kafe/d-3950888/bakaro-grill--gurih-renyah-grilled-beef-bowl-yang-dibakar-pakai-semburan-api"><img src="<?=_SPPATH;?>uploads/detik.com.png" height="100" width="200" alt="menu makanan bakaro" title="menu makanan bakaro" /></a>
 						<!-- <h2>Tahun 2016</h2> -->
