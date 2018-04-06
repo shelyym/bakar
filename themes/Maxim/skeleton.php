@@ -264,15 +264,15 @@ function currentDiv(n) {
 			  <h2 class="text-center">Bakaro - as seen on Media</h2>
 			  <br>
 <div class="row">
-				<div class="span4 animated-fast flyIn">
-					<div class="people">
-						<a target="blank" href="http://m.tribunnews.com/travel/2018/03/27/inovasi-restoran-cepat-saji-ini-daging-dibakar-menggunakan-pelontar-api?page=3"><img src="<?=_SPPATH;?>uploads/rtibunnewsy.PNG" height="100" width="200" alt="grilled beef bowl" title="grilled beef bowl"/></a>
+<div class="span3 animated-fast flyIn">
+		<div class="people">
+		<a target="blank" href="http://m.tribunnews.com/travel/2018/03/27/inovasi-restoran-cepat-saji-ini-daging-dibakar-menggunakan-pelontar-api?page=3"><img src="<?=_SPPATH;?>uploads/rtibunnewsy.PNG" height="100" width="200" alt="grilled beef bowl" title="grilled beef bowl"/></a>
 					<p> 	
 							
 						</p>
 					</div>
 				</div>
-				<div class="span4 animated flyIn">
+				<div class="span3 animated flyIn">
 					<div class="people">
 						<a target="blank" href="https://www.google.co.id/amp/s/m.viva.co.id/amp/gaya-hidup/kuliner/1020785-inovasi-baru-kuliner-lewat-flame-thrower"><img src="<?=_SPPATH;?>uploads/viva.PNG" height="100" width="200" alt="menu makanan bakaro" title="menu makanan bakaro" /></a>
 						<!-- <h2>Tahun 2016</h2> -->
@@ -281,8 +281,8 @@ function currentDiv(n) {
 						</p>
 					</div>
 				</div>
-				<div class="row">
-					<div class="span4 animated-fast flyIn">
+				
+					<div class="span3 animated-fast flyIn">
 					<div class="people">
 						<a target="blank" href="https://www.google.co.id/amp/s/amp.kaskus.co.id/thread/5aba17a8d9d770103b8b458a/inovasi-restoran-cepat-saji-ini-daging-dibakar-menggunakan-pelontar-api"><img src="<?=_SPPATH;?>uploads/kaskus.png" height="100" width="200" alt="grilled chicken bowl" title="grilled chicken bowl" /></a>
 						<!-- <h2>Tahun 2015</h2> -->
@@ -291,10 +291,20 @@ function currentDiv(n) {
 						</p>
 					</div>
 				</div>
+				<div class="span3 animated flyIn">
+					<div class="people">
+						<a target="blank" href="https://m.tabloidbintang.com/wisata-kuliner/nongkrong/read/97392/menikmati-daging-ayam-dan-sapi-yang-diolah-dengan-pelontar-api-di-bakaro-grill"><img src="<?=_SPPATH;?>uploads/tebloid bintang (1).PNG" height="100" width="200" alt="menu makanan bakaro" title="menu makanan bakaro" /></a>
+						<!-- <h2>Tahun 2016</h2> -->
+						<p>
+							
+						</p>
+					</div>
+				</div>
 			</div>
+			<div class="row">
 			<div class="span4 animated flyIn">
 					<div class="people">
-						<a target="blank" href="https://20.detik.com/e-flash/20180404-180404058/gurih-renyah-daging-sapi-dibakar-pakai-semburan-api"><img src="<?=_SPPATH;?>uploads/viva copy.png" height="100" width="200" alt="menu makanan bakaro" height="100" width="200" title="menu makanan bakaro" /></a>
+						<a target="blank" href="https://20.detik.com/e-flash/20180404-180404058/gurih-renyah-daging-sapi-dibakar-pakai-semburan-api"><img src="<?=_SPPATH;?>uploads/20d.PNG" height="100" width="200" alt="menu makanan bakaro" height="100" width="200" title="menu makanan bakaro" /></a>
 						<!-- <h2>Tahun 2016</h2> -->
 						<p>
 							
@@ -319,6 +329,7 @@ function currentDiv(n) {
 						</p>
 					</div>
 				</div>
+
 		</div>
 	</section>
 <br>
