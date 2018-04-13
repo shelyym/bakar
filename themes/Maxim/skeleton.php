@@ -302,7 +302,7 @@ function currentDiv(n) {
 				</div>
 			</div>
 			<div class="row">
-			<div class="span4 animated flyIn">
+			<div class="span3 animated flyIn">
 					<div class="people">
 						<a target="blank" href="https://20.detik.com/e-flash/20180404-180404058/gurih-renyah-daging-sapi-dibakar-pakai-semburan-api"><img src="<?=_SPPATH;?>uploads/20d.PNG" height="100" width="200" alt="menu makanan bakaro" height="100" width="200" title="menu makanan bakaro" /></a>
 						<!-- <h2>Tahun 2016</h2> -->
@@ -312,7 +312,7 @@ function currentDiv(n) {
 					</div>
 				</div>
 			
-				<div class="span4 animated-fast flyIn">
+				<div class="span3 animated-fast flyIn">
 					<div class="people">
 						<a target="blank" href="http://www.liputan6.com/lifestyle/read/3421722/restoran-ini-sajikan-menu-daging-dengan-cara-unik?utm_source=App&utm_medium=WhatsApp&utm_campaign=Share"><img src="<?=_SPPATH;?>uploads/liputan-6-logo copy.PNG" height="100" width="200" alt="grilled beef bowl" title="grilled beef bowl"/></a>
 					<p> 	
@@ -320,9 +320,56 @@ function currentDiv(n) {
 						</p>
 					</div>
 				</div>
-				<div class="span4 animated flyIn">
+				<div class="span3 animated flyIn">
 					<div class="people">
 						<a target="blank" href="https://food.detik.com/resto-dan-kafe/d-3950888/bakaro-grill--gurih-renyah-grilled-beef-bowl-yang-dibakar-pakai-semburan-api"><img src="<?=_SPPATH;?>uploads/detik.com.png" height="100" width="200" alt="menu makanan bakaro" title="menu makanan bakaro" /></a>
+						<!-- <h2>Tahun 2016</h2> -->
+						<p>
+							
+						</p>
+					</div>
+				</div>
+				<div class="span3 animated flyIn">
+					<div class="people">
+						<a target="blank" href="https://lifestyle.okezone.com/read/2018/04/09/298/1884344/3-rekomendasi-nikmati-makanan-unik-dan-khas-indonesia-di-jakarta?page=1"><img src="<?=_SPPATH;?>uploads/okezone.PNG" height="100" width="200" alt="menu makanan bakaro" title="menu makanan bakaro" /></a>
+						<!-- <h2>Tahun 2016</h2> -->
+						<p>
+							
+						</p>
+					</div>
+				</div>
+			</div>
+				<div class="row">
+				<div class="span3 animated flyIn">
+					<div class="people">
+						<a target="blank" href="http://m.jpnn.com/news/ayo-coba-inovasi-baru-makanan-cepat-saji-di-bakaro"><img src="<?=_SPPATH;?>uploads/JPNN.PNG" height="100" width="200" alt="menu makanan bakaro" title="menu makanan bakaro" /></a>
+						<!-- <h2>Tahun 2016</h2> -->
+						<p>
+							
+						</p>
+					</div>
+				</div>
+				<div class="span3 animated flyIn">
+					<div class="people">
+						<a target="blank" href="http://www.beritasatu.com/saujana/486879-bakaro-kenalkan-inovasi-baru-makanan-cepat-saji.html"><img src="<?=_SPPATH;?>uploads/berita satu.PNG" height="100" width="200" alt="menu makanan bakaro" title="menu makanan bakaro" /></a>
+						<!-- <h2>Tahun 2016</h2> -->
+						<p>
+							
+						</p>
+					</div>
+				</div>
+				<div class="span3 animated flyIn">
+					<div class="people">
+						<a target="blank" href="https://seremonia.id/gaya-hidup/kuliner/bakaro-grill-dengan-flame-thrower-sebagai-inovasi-baru-dalam-makanan-cepat-saji/"><img src="<?=_SPPATH;?>uploads/seremonia.PNG" height="100" width="200" alt="menu makanan bakaro" title="menu makanan bakaro" /></a>
+						<!-- <h2>Tahun 2016</h2> -->
+						<p>
+							
+						</p>
+					</div>
+				</div>
+				<div class="span3 animated flyIn">
+					<div class="people">
+						<a target="blank" href="https://www.merdeka.com/uang/industri-kuliner-terus-berkembang-bakaro-tawarkan-franchise.html"><img src="<?=_SPPATH;?>uploads/merdeka.PNG" height="100" width="200" alt="menu makanan bakaro" title="menu makanan bakaro" /></a>
 						<!-- <h2>Tahun 2016</h2> -->
 						<p>
 							
